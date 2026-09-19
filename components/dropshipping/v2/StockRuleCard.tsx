@@ -1,0 +1,1 @@
+export function StockRuleCard({buffer}:{buffer:number}){return <div className="glass-card"><span>Stock safety buffer</span><strong>{buffer}</strong></div>}
