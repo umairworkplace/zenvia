@@ -1,0 +1,1 @@
+export const dropshipConfig={maxRetries:3,stockBuffer:2,defaultMarkup:60};
