@@ -1,0 +1,1 @@
+export function syncSummary(updated:number,failed:number){return{updated,failed,total:updated+failed,successRate:updated+failed?updated/(updated+failed):1};}
