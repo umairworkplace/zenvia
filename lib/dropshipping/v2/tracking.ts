@@ -1,0 +1,1 @@
+export type Tracking={number?:string;carrier?:string;status:string;updatedAt:string}; export function tracking(number?:string,carrier?:string,status="processing"):Tracking{return{number,carrier,status,updatedAt:new Date().toISOString()}}
