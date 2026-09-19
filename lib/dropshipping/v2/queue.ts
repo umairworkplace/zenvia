@@ -1,0 +1,1 @@
+export type QueueJob={id:string;type:"import"|"inventory"|"order"|"tracking";attempts:number}; export function nextAttempt(job:QueueJob){return{...job,attempts:job.attempts+1}}
