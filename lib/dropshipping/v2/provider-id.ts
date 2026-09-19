@@ -1,0 +1,1 @@
+export function providerId(provider:string,externalId:string){return `${provider}:${externalId}`;}
