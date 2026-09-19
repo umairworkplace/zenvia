@@ -1,0 +1,1 @@
+export function CostBreakdown({cost,shipping,markup}:{cost:number;shipping:number;markup:number}){return <div className="glass-card"><span>Cost ${cost.toFixed(2)}</span><span>Shipping ${shipping.toFixed(2)}</span><strong>Markup {markup}%</strong></div>}
