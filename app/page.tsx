@@ -1,32 +1,21 @@
 import Link from "next/link";
 
-const categories = ["Tech", "Home", "Fashion", "Beauty", "Gaming", "Everyday"];
+const categories = ["Electronics", "Fashion", "Home & Living", "Beauty", "Sports", "Toys", "Groceries", "More"];
+const products = ["Sony WH-1000XM5", "MacBook Air M3", "Nike Air Max 270", "Samsung Galaxy S24"];
 
 export default function Home() {
-  return (
-    <main style={{ minHeight: "100vh", background: "radial-gradient(circle at 70% 15%, #26365d 0, #0c1020 28%, #08090d 62%)" }}>
-      <nav style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "24px 5vw", borderBottom: "1px solid #ffffff18" }}>
-        <strong style={{ fontSize: 25, letterSpacing: "-.04em" }}>ZENVIA</strong>
-        <div style={{ display: "flex", gap: 24, color: "#b9bfce", fontSize: 14 }}>
-          <Link href="/shop">Shop</Link><Link href="/discover">Discover</Link><Link href="/cart">Cart</Link>
-        </div>
-      </nav>
-
-      <section style={{ maxWidth: 1200, margin: "0 auto", padding: "9vh 5vw 5vh" }}>
-        <div style={{ maxWidth: 760 }}>
-          <p style={{ color: "#8e9cff", fontWeight: 700, letterSpacing: ".18em", fontSize: 12 }}>A NEW KIND OF MARKETPLACE</p>
-          <h1 style={{ fontSize: "clamp(52px, 8vw, 108px)", lineHeight: .92, letterSpacing: "-.065em", margin: "20px 0" }}>SHOP THE<br /><span style={{ color: "#8e9cff" }}>UNEXPECTED.</span></h1>
-          <p style={{ color: "#aeb4c4", maxWidth: 560, fontSize: 18, lineHeight: 1.65 }}>Explore products through an immersive shopping world built for discovery, personalization and simple checkout.</p>
-          <div style={{ display: "flex", gap: 12, marginTop: 32 }}>
-            <Link href="/shop" style={{ padding: "15px 24px", borderRadius: 14, background: "#f6f7fb", color: "#08090d", fontWeight: 700 }}>Explore products →</Link>
-            <Link href="/discover" style={{ padding: "15px 24px", borderRadius: 14, border: "1px solid #ffffff24", color: "#fff" }}>Enter 3D world</Link>
-          </div>
-        </div>
-
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 80 }}>
-          {categories.map((category) => <Link key={category} href={`/shop?category=${category.toLowerCase()}`} style={{ padding: "12px 18px", border: "1px solid #ffffff16", borderRadius: 999, color: "#c5cad6", background: "#ffffff06" }}>{category}</Link>)}
-        </div>
+  return <main className="zen-home">
+    <header className="glass-nav"><div className="brand"><span className="brand-mark">Z</span><strong>ZENVIA</strong></div><div className="search-glass">⌕ <span>Search for products, brands, or anything...</span></div><nav><Link href="/">Home</Link><Link href="/shop">Shop</Link><Link href="/zenverse">3D Store</Link><Link href="/ai">AI Assistant</Link><Link href="/wishlist">♡</Link><Link href="/cart">🛒</Link></nav></header>
+    <div className="home-shell">
+      <aside className="glass-sidebar"><Link className="active" href="/">⌂ <span>Home</span></Link><Link href="/shop">▣ <span>Shop</span></Link><Link href="/zenverse">◇ <span>3D Store</span></Link><Link href="/ai">✦ <span>AI Assistant</span></Link><Link href="/wishlist">♡ <span>Wishlist</span></Link><Link href="/cart">🛒 <span>Cart</span></Link><Link href="/orders">▤ <span>Orders</span></Link><Link href="/account">♙ <span>Profile</span></Link><div className="side-promo">🚚<b>Free Shipping</b><small>On orders over $50</small></div></aside>
+      <section className="home-main">
+        <div className="glass-hero"><div><p className="eyebrow">NEW COLLECTION</p><h1>Smarter Choices.<br/>Better Living.</h1><p>AI-powered. 3D immersive. Personalized for you.</p><div className="hero-actions"><Link className="primary-glass" href="/zenverse">Explore 3D Store →</Link><Link className="soft-link" href="/shop">Shop collection</Link></div></div><div className="hero-object">◉</div></div>
+        <div className="glass-categories">{categories.map((c,i)=><Link href={`/shop?category=${encodeURIComponent(c)}`} key={c}><span>{["◉","◌","⌂","✧","◒","♧","▣","＋"][i]}</span><small>{c}</small></Link>)}</div>
+        <section className="glass-section"><div className="section-title"><div><p className="eyebrow">HANDPICKED FOR YOU</p><h2>Featured Products</h2></div><Link href="/shop">View all →</Link></div><div className="home-products">{products.map((p,i)=><article className="glass-product" key={p}><div className={`product-visual visual-${i}`}>{["◉","▱","◒","▣"][i]}</div><button className="heart">♡</button><h3>{p}</h3><small>★★★★★ <span>4.{8-i}</span></small><strong>${[349.99,1099,149.99,799][i].toFixed(2)}</strong><Link className="add-glass" href="/cart">🛒 Add to Cart</Link></article>)}</div></section>
+        <div className="home-bottom"><div className="glass-mini"><p className="eyebrow">TRENDING NOW</p><h3>Discover what everyone is loving.</h3><Link href="/shop">Explore trends →</Link></div><div className="glass-mini warm"><p className="eyebrow">FLASH SALE</p><h3>Up to 50% Off</h3><p>Top brands. Limited time.</p><Link href="/shop">Shop deals →</Link></div></div>
+        <footer className="glass-footer"><span>♙ Secure Payments</span><span>🚚 Fast & Free Shipping</span><span>◌ 24/7 Support</span><span>↻ Easy Returns</span><span>✦ Trusted Reviews</span><b>ZENVIA</b></footer>
       </section>
-    </main>
-  );
+      <aside className="right-rail"><div className="glass-ai"><p className="eyebrow">ZEN AI</p><h2>Your Personal<br/>Shopping Assistant</h2><p>Ask anything, get personalized recommendations.</p><Link href="/ai">✦ Ask ZEN AI</Link><button>Best laptop under $1000?</button><button>Show me wireless headphones</button><button>Gift for a tech lover</button></div><div className="glass-promo"><p>Upgrade Your<br/><b>Lifestyle</b></p><Link href="/shop">Shop now →</Link></div><div className="glass-recent"><div className="section-title"><h3>Recently Viewed</h3><Link href="/shop">View all</Link></div><p>iPhone 16 <b>$999</b></p><p>PS5 Console <b>$499</b></p><p>Air Jordan 1 <b>$179</b></p><p>MacBook Air M3 <b>$1,099</b></p></div></aside>
+    </div>
+  </main>;
 }
