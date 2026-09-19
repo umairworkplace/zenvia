@@ -1,0 +1,1 @@
+export function GlassTrustRow(){return <div className="trust-strip"><span>✓ Secure checkout</span><span>🚚 Fast delivery</span><span>◌ 24/7 support</span><span>↻ Easy returns</span><span>✦ Verified reviews</span></div>}
