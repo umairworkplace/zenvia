@@ -1,0 +1,1 @@
+export function ExceptionNotice({message}:{message:string}){return <aside className="glass-card" role="alert"><strong>Fulfillment exception</strong><p>{message}</p></aside>}
