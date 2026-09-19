@@ -1,0 +1,1 @@
+export function ImportPreview({title,variants}:{title:string;variants:number}){return <div className="glass-card"><strong>{title}</strong><span>{variants} variants ready to import</span></div>}
