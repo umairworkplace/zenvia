@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function GlassProductTile({slug,name,price,index=0}:{slug:string;name:string;price:number;index?:number}){return <article className="glass-product"><Link href={`/product/${slug}`}><div className={`product-visual visual-${index%4}`}>◉</div><h3>{name}</h3><small>★★★★★ <span>4.8</span></small><strong>${price.toFixed(2)}</strong></Link><Link className="add-glass" href="/cart">🛒 Add to Cart</Link></article>}
