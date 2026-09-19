@@ -1,0 +1,1 @@
+export function SupplierBadge({supplier}:{supplier:"cj"|"aliexpress"|"amazon"}){return <span className="supplier-badge">{supplier==="cj"?"CJ Dropshipping":supplier==="aliexpress"?"AliExpress":"Amazon"}</span>}
