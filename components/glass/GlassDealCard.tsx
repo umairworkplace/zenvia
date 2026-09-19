@@ -1,0 +1,1 @@
+export function GlassDealCard({title,discount}:{title:string;discount:string}){return <article className="glass-deal"><span className="glass-badge">LIMITED</span><h3>{title}</h3><strong>{discount}</strong><button className="glass-button">Explore deal</button></article>}
