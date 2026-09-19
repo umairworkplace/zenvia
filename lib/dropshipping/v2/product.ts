@@ -1,0 +1,1 @@
+export type ImportedProduct={externalId:string;title:string;description?:string;images:string[];variants:string[];supplier:string};
