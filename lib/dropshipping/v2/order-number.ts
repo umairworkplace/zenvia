@@ -1,0 +1,1 @@
+export function orderReference(id:string){return `ZV-${id.slice(0,8).toUpperCase()}`;}
