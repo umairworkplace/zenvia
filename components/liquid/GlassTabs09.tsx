@@ -1,0 +1,1 @@
+"use client"; export function GlassTabs09({items,active,onChange}:{items:string[];active:string;onChange:(x:string)=>void}){return <div className="liquid-tabs">{items.map(x=><button className={x===active?"active":""} onClick={()=>onChange(x)} key={x}>{x}</button>)}</div>}
