@@ -1,0 +1,1 @@
+"use client"; export function PriceRuleEditor({value,onChange}:{value:number;onChange:(v:number)=>void}){return <label>Markup %<input type="number" min="0" value={value} onChange={e=>onChange(Number(e.target.value))}/></label>}
