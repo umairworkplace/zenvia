@@ -1,0 +1,1 @@
+export function Rating({ value, count }: { value: number; count?: number }) { const rounded=Math.max(0,Math.min(5,Math.round(value))); return <span className="rating" aria-label={`${value} out of 5 stars`}>{"★".repeat(rounded)}{"☆".repeat(5-rounded)}{count !== undefined ? <small> ({count})</small> : null}</span>; }
