@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server"; import {assertSupplier} from "../../../../../lib/dropshipping/supplier";
+export async function POST(request:Request){try{const{supplier,externalId}=await request.json();const s=assertSupplier(String(supplier));if(!externalId)return NextResponse.json({error:"externalId required"},{status:400});return NextResponse.json({ok:false,supplier:s,externalId,message:"Connect supplier credentials to enable import."},{status:501});}catch(e){return NextResponse.json({error:e instanceof Error?e.message:"Invalid request"},{status:400});}}
