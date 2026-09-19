@@ -1,0 +1,1 @@
+export function GlassCheckoutStepsV3({current=1}:{current?:number}){return <ol className="glass-checkout-steps">{["Cart","Delivery","Payment","Done"].map((x,i)=><li className={i+1<=current?"active":""} key={x}><span>{i+1}</span>{x}</li>)}</ol>}
