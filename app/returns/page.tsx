@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function ReturnsPage(){return <main className="page narrow"><Link className="ghost" href="/help">← Help center</Link><p className="eyebrow">RETURNS</p><h1>Simple returns.</h1><div className="table-card"><h2>Start a return</h2><p className="muted">Return eligibility, seller rules and refund timing will be shown here once an order is selected.</p><Link className="primary" href="/orders">View orders</Link></div></main>}
