@@ -1,0 +1,1 @@
+export function ShippingOptionList({options}:{options:{id:string;name:string;price:number;etaDays:number}[]}){return <div>{options.map(o=><div className="glass-card" key={o.id}><b>{o.name}</b><span>${o.price.toFixed(2)} · {o.etaDays} days</span></div>)}</div>}
