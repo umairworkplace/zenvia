@@ -1,0 +1,1 @@
+export function GlassHeroV2(){return <section className="glass-hero"><p className="eyebrow">THE NEW MARKETPLACE</p><h1>Find something<br/>worth keeping.</h1><p>Curated products, intelligent discovery and a calmer way to shop.</p><button className="glass-button">Explore collection →</button></section>}
