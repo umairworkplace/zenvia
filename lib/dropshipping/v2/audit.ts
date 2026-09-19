@@ -1,0 +1,1 @@
+export type AuditEntry={actor:string;action:string;resource:string;at:string}; export function audit(actor:string,action:string,resource:string):AuditEntry{return{actor,action,resource,at:new Date().toISOString()}}
