@@ -1,0 +1,1 @@
+export function TrackingLink({trackingNumber}:{trackingNumber?:string}){if(!trackingNumber)return null;return <a className="tracking-link" href={`/track/${encodeURIComponent(trackingNumber)}`}>Track package →</a>}
