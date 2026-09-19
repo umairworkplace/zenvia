@@ -1,0 +1,1 @@
+export function ProductMappingCard({localId,externalId,supplier}:{localId:string;externalId:string;supplier:string}){return <div className="mapping-card"><span>{supplier}</span><code>{externalId}</code><span>↔</span><code>{localId}</code></div>}
