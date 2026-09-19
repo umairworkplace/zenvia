@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function POST(r:Request){const b=await r.json();const valid=Boolean(b.externalId&&b.supplier);return NextResponse.json({valid,missing:[!b.externalId&&"externalId",!b.supplier&&"supplier"].filter(Boolean)})}
