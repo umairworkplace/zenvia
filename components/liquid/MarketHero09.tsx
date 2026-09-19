@@ -1,0 +1,1 @@
+export function MarketHero09(){return <section className="liquid-hero"><p>THE NEW MARKETPLACE</p><h1>Discover something worth keeping.</h1><span>Curated products, intelligent discovery.</span></section>}
