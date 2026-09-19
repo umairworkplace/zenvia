@@ -1,0 +1,1 @@
+export function SupplierHealth({cj,aliexpress,amazon}:{cj:boolean;aliexpress:boolean;amazon:boolean}){return <div className="supplier-health">{[["CJ",cj],["AliExpress",aliexpress],["Amazon",amazon]].map(([n,on])=><div key={String(n)}><strong>{n}</strong><span>{on?"Connected":"Not configured"}</span></div>)}</div>}
