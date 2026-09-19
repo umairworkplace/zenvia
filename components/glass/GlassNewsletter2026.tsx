@@ -1,0 +1,2 @@
+"use client"; import {useState} from "react";
+export function GlassNewsletter2026(){const[email,setEmail]=useState("");const[sent,setSent]=useState(false);return <form className="glass-newsletter" onSubmit={e=>{e.preventDefault();setSent(true)}}><div><span className="eyebrow">INSIDE ZENVIA</span><h3>Get the good drops.</h3></div><input required type="email" value={email} onChange={e=>setEmail(e.target.value)} placeholder="Email address"/><button>{sent?"Joined":"Join"}</button></form>}
