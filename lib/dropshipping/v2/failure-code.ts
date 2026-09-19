@@ -1,0 +1,1 @@
+export const failureCodes=["AUTH","RATE_LIMIT","INVALID_PRODUCT","OUT_OF_STOCK","SHIPPING","UNKNOWN"] as const; export type FailureCode=typeof failureCodes[number];
