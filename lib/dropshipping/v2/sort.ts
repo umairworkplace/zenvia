@@ -1,0 +1,1 @@
+export function sortByCost<T extends {cost:number}>(items:T[]){return[...items].sort((a,b)=>a.cost-b.cost)}
