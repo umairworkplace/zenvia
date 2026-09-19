@@ -1,0 +1,1 @@
+import Link from "next/link"; export function EmptyState09(){return <section className="liquid-empty"><div>◇</div><h2>Nothing here yet.</h2><p>Explore the marketplace and find something you love.</p><Link href="/shop">Explore shop</Link></section>}
