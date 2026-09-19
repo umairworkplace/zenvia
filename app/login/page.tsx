@@ -1,0 +1,4 @@
+"use client";
+import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
+export default function LoginPage(){const [email,setEmail]=useState("");const [status,setStatus]=useState("");const router=useRouter();async function submit(e:FormEvent){e.preventDefault();setStatus("Signing in…");const r=await fetch("/api/auth/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email})});if(r.ok)router.push("/account");else setStatus("Unable to sign in.");}return <main className="page narrow"><p className="eyebrow">WELCOME BACK</p><h1>Sign in to Zenvia.</h1><form className="checkout-card" onSubmit={submit}><label>Email<input required type="email" value={email} onChange={e=>setEmail(e.target.value)} placeholder="you@example.com"/></label><button className="primary">Continue</button>{status&&<p className="muted">{status}</p>}</form></main>}
