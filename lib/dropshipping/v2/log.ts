@@ -1,0 +1,1 @@
+export type SyncLog={supplier:string;action:string;ok:boolean;message:string;at:string}; export function syncLog(supplier:string,action:string,ok:boolean,message:string):SyncLog{return{supplier,action,ok,message,at:new Date().toISOString()}}
