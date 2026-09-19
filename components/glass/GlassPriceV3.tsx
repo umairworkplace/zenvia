@@ -1,0 +1,1 @@
+export function GlassPriceV3({value,compareAt}:{value:number;compareAt?:number}){return <div className="glass-price"><strong>${value.toFixed(2)}</strong>{compareAt&&compareAt>value&&<del>${compareAt.toFixed(2)}</del>}</div>}
