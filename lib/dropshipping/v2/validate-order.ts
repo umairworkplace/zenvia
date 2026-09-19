@@ -1,0 +1,1 @@
+export function validateOrder(o:{id?:string;items?:unknown[]}){return Boolean(o.id&&Array.isArray(o.items)&&o.items.length);}
