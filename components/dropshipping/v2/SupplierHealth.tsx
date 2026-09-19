@@ -1,0 +1,1 @@
+export function SupplierHealth({supplier,reachable}:{supplier:string;reachable:boolean}){return <div className="glass-card"><b>{supplier}</b><span>{reachable?"Connected":"Needs configuration"}</span></div>}
