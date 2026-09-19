@@ -1,0 +1,1 @@
+export function SectionHeading09({eyebrow,title,description}:{eyebrow?:string;title:string;description?:string}){return <header className="liquid-section-heading">{eyebrow&&<p>{eyebrow}</p>}<h2>{title}</h2>{description&&<span>{description}</span>}</header>}
