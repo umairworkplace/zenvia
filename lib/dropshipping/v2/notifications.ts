@@ -1,0 +1,1 @@
+export type Notification={orderId:string;type:"tracking"|"status"|"exception";message:string}; export function notification(orderId:string,type:Notification["type"],message:string){return{orderId,type,message}}
