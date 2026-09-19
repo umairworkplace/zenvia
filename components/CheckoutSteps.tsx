@@ -1,0 +1,1 @@
+export function CheckoutSteps({current}:{current:number}){return <ol className="checkout-steps">{["Cart","Details","Payment","Done"].map((label,i)=><li className={i<=current?"active":""} key={label}><span>{i+1}</span>{label}</li>)}</ol>}
