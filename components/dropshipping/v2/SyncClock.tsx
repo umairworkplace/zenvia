@@ -1,0 +1,1 @@
+export function SyncClock({at}:{at:string|null}){return <time dateTime={at||undefined}>{at?new Date(at).toLocaleString():"Never synced"}</time>}
