@@ -1,0 +1,1 @@
+export type ShippingOption={id:string;name:string;price:number;etaDays:number}; export function sortShipping(options:ShippingOption[]){return[...options].sort((a,b)=>a.price-b.price)}
