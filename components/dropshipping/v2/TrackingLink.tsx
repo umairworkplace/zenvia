@@ -1,0 +1,1 @@
+export function TrackingLink({number}:{number:string}){return <a href={`https://www.google.com/search?q=${encodeURIComponent(number)}`} target="_blank" rel="noreferrer">Track {number}</a>}
