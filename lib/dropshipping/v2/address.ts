@@ -1,0 +1,1 @@
+export type ShippingAddress={name:string;address:string;city:string;state:string;zip:string;country:string}; export function validAddress(a:ShippingAddress){return Boolean(a.name&&a.address&&a.city&&a.zip&&a.country);}
