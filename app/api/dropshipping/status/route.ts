@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server"; import {normalizeFulfillmentStatus} from "../../../../../lib/dropshipping/tracking";
+export async function GET(request:Request){const p=new URL(request.url).searchParams;const id=p.get("supplierOrderId");if(!id)return NextResponse.json({error:"supplierOrderId required"},{status:400});return NextResponse.json({supplierOrderId:id,status:normalizeFulfillmentStatus("processing")});}
