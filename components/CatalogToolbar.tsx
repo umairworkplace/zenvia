@@ -1,0 +1,2 @@
+"use client";
+export function CatalogToolbar({sort,onSort}:{sort:string;onSort:(v:string)=>void}){return <div className="catalog-toolbar"><span>Explore products</span><select value={sort} onChange={e=>onSort(e.target.value)} aria-label="Sort products"><option value="newest">Newest</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></div>}
