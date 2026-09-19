@@ -1,0 +1,1 @@
+export function validateProduct(p:{externalId?:string;title?:string}){return Boolean(p.externalId&&p.title);}
