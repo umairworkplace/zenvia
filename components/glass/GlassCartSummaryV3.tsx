@@ -1,0 +1,1 @@
+export function GlassCartSummaryV3({subtotal,shipping=0}:{subtotal:number;shipping?:number}){return <aside className="glass-cart-summary"><span>Subtotal <b>${subtotal.toFixed(2)}</b></span><span>Shipping <b>{shipping?`$${shipping.toFixed(2)`:"Free"}</b></span><strong>Total <b>${(subtotal+shipping).toFixed(2)}</b></strong></aside>}
