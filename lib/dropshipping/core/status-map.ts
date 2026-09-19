@@ -1,0 +1,1 @@
+const statuses={pending:"pending",processing:"processing",shipped:"shipped",delivered:"delivered",cancelled:"cancelled",exception:"exception"} as const; export function mapStatus(value:string){return statuses[value.toLowerCase() as keyof typeof statuses]||"processing";}
