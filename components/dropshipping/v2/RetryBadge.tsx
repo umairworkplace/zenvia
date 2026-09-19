@@ -1,0 +1,1 @@
+export function RetryBadge({attempts}:{attempts:number}){return <span className="glass-badge">Attempts {attempts}</span>}
