@@ -1,0 +1,1 @@
+export function GlassSectionTitleV2({eyebrow,title,action}:{eyebrow:string;title:string;action?:React.ReactNode}){return <div className="glass-section-title"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2></div>{action}</div>}
