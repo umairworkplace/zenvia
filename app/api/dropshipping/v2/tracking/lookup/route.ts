@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function GET(r:Request){const id=new URL(r.url).searchParams.get("orderId");return NextResponse.json({orderId:id,tracking:null})}
