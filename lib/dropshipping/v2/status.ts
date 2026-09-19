@@ -1,0 +1,1 @@
+export const statuses=["pending","submitted","processing","shipped","delivered","exception"] as const; export type Status=typeof statuses[number];
