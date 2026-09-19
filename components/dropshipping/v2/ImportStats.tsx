@@ -1,0 +1,1 @@
+export function ImportStats({total,success,failed}:{total:number;success:number;failed:number}){return <div className="glass-card"><span>{total} processed</span><span>{success} imported</span><span>{failed} failed</span></div>}
