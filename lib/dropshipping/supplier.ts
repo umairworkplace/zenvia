@@ -1,0 +1,3 @@
+import type {Supplier,SupplierProduct} from "./types";
+export interface SupplierAdapter{readonly name:Supplier; importProduct(externalId:string):Promise<SupplierProduct>; syncInventory(externalId:string):Promise<{variantId:string;stock:number}[]>; createOrder(input:{externalId:string;items:{variantId:string;quantity:number}[];shipping:{name:string;address:string;city:string;state:string;zip:string;country:string}}):Promise<{supplierOrderId:string}>; getTracking(supplierOrderId:string):Promise<{trackingNumber?:string;carrier?:string;status:string}>;}
+export function assertSupplier(value:string):Supplier{if(value!=="cj"&&value!=="aliexpress"&&value!=="amazon")throw new Error("Unsupported supplier");return value;}
