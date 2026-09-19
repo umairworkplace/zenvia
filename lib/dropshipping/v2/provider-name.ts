@@ -1,0 +1,1 @@
+export function providerName(value:string){return value==="cj"?"CJ Dropshipping":value==="aliexpress"?"AliExpress":"Amazon";}
