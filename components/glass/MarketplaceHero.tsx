@@ -1,0 +1,1 @@
+export function MarketplaceHero(){return <section className="glass-hero"><p className="eyebrow">THE NEW MARKETPLACE</p><h1>Discover something worth owning.</h1><p>Curated products, intelligent recommendations and a storefront designed to feel effortless.</p></section>}
