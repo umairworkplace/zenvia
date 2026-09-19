@@ -1,0 +1,1 @@
+import Link from "next/link"; export function GlassFooter09(){return <footer className="liquid-footer"><div><strong>ZENVIA</strong><span>Commerce, reimagined.</span></div><nav><Link href="/shop">Shop</Link><Link href="/help">Help</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></nav></footer>}
