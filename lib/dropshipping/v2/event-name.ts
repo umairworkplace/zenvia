@@ -1,0 +1,1 @@
+export function eventName(type:string){return `dropshipping.${type}`;}
