@@ -1,0 +1,1 @@
+export function ProductImportRow({title,supplier,cost}:{title:string;supplier:string;cost:number}){return <div className="glass-card"><b>{title}</b><span>{supplier} · ${cost.toFixed(2)}</span></div>}
