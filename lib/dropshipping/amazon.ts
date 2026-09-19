@@ -1,0 +1,2 @@
+import type {SupplierAdapter} from "./supplier";
+export const amazonSupplier:SupplierAdapter={name:"amazon",async importProduct(externalId){throw new Error(`Amazon integration not configured: ${externalId}`)},async syncInventory(){throw new Error("Amazon integration not configured")},async createOrder(){throw new Error("Amazon integration not configured")},async getTracking(){throw new Error("Amazon integration not configured")}};
