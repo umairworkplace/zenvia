@@ -1,0 +1,1 @@
+export function totalSupplierCost(cost:number,shipping:number,fee=0){return Number((cost+shipping+fee).toFixed(2));}
