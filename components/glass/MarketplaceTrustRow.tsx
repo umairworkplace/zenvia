@@ -1,0 +1,1 @@
+export function MarketplaceTrustRow(){return <div className="glass-trust-row"><span>✓ Secure checkout</span><span>↺ Easy returns</span><span>◇ Verified sellers</span><span>⚡ Fast support</span></div>}
