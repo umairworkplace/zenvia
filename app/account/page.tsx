@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function AccountPage(){return <main className="page"><p className="eyebrow">MY ZENVIA</p><h1>Your account.</h1><div className="account-grid"><Link className="admin-card" href="/orders"><h2>Orders</h2><p>Track purchases and delivery status.</p></Link><Link className="admin-card" href="/wishlist"><h2>Wishlist</h2><p>Save products for later.</p></Link><Link className="admin-card" href="/account/settings"><h2>Settings</h2><p>Manage your profile and preferences.</p></Link></div></main>}
