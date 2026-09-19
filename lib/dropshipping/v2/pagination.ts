@@ -1,0 +1,1 @@
+export function page<T>(items:T[],pageNumber=1,size=20){const p=Math.max(1,pageNumber);const start=(p-1)*size;return{items:items.slice(start,start+size),page:p,total:items.length}}
