@@ -1,0 +1,2 @@
+import {SyncNowButton} from "../../../components/dropshipping/SyncNowButton"; import {SupplierHealth} from "../../../components/dropshipping/SupplierHealth";
+export default function DropshippingAdmin(){return <main className="page"><p className="eyebrow">AUTOMATION</p><h1>Dropshipping control center</h1><p className="muted">Manage supplier connections, synchronization and fulfillment.</p><SyncNowButton/><SupplierHealth cj={Boolean(process.env.CJ_ACCESS_TOKEN)} aliexpress={Boolean(process.env.ALIEXPRESS_CLIENT_ID)} amazon={Boolean(process.env.AMAZON_CLIENT_ID)}/></main>}
