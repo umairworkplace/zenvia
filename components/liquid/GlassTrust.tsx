@@ -1,0 +1,1 @@
+export function GlassTrust(){return <section className="glass-trust"><div><strong>Secure</strong><span>Protected checkout</span></div><div><strong>Curated</strong><span>Quality-first discovery</span></div><div><strong>Human</strong><span>Real support when needed</span></div><div><strong>Flexible</strong><span>Simple returns</span></div></section>}
