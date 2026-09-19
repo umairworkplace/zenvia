@@ -1,0 +1,4 @@
+import { NextResponse } from "next/server";
+import { db } from "../../../../lib/db";
+import { getCurrentUser } from "../../../../lib/session";
+export async function POST(request:Request){const user=await getCurrentUser();if(!user||!["SELLER","ADMIN"].includes(user.role))return NextResponse.json({error:"Forbidden"},{status:403});try{const body=await request.json();if(!body.name||!body.slug||body.price==null||!body.category)return NextResponse.json({error:"Missing product fields"},{status:400});const product=await db.product.create({data:{name:body.name,slug:body.slug,description:body.description??"",price:body.price,stock:body.stock??0,category:body.category}});return NextResponse.json({product},{status:201});}catch{return NextResponse.json({error:"Unable to create product"},{status:400});}}
