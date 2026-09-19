@@ -1,0 +1,1 @@
+export function QueueBadge({count}:{count:number}){return <span className="glass-badge">Queue {count}</span>}
