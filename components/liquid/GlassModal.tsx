@@ -1,0 +1,1 @@
+export function GlassModal({open,children}:{open:boolean;children:React.ReactNode}){if(!open)return null;return <div className="glass-overlay" role="dialog" aria-modal="true"><div className="glass-modal">{children}</div></div>}
