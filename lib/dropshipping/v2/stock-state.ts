@@ -1,0 +1,1 @@
+export function stockState(stock:number){return stock<=0?"out":stock<5?"low":"available" as const;}
