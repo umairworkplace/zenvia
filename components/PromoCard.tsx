@@ -1,0 +1,1 @@
+export function PromoCard({title,description}:{title:string;description:string}){return <aside className="promo-card"><span className="eyebrow">ZEN PICK</span><h3>{title}</h3><p>{description}</p></aside>}
