@@ -1,0 +1,1 @@
+export function OrderTimeline({steps}:{steps:string[]}){return <ol className="order-timeline">{steps.map((s,i)=><li key={`${s}-${i}`}>{s}</li>)}</ol>}
