@@ -1,0 +1,1 @@
+export function priceState(cost:number,sell:number){return sell>=cost?"profitable":"loss" as const;}
