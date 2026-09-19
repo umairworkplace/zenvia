@@ -1,0 +1,1 @@
+export function activeProducts<T extends {active?:boolean}>(items:T[]){return items.filter(x=>x.active!==false)}
