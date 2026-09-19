@@ -1,0 +1,1 @@
+export function AutomationNotice(){return <div className="glass-card"><strong>Automation ready</strong><p>Connect supplier credentials to enable live fulfillment.</p></div>}
