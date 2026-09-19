@@ -1,0 +1,1 @@
+export type DropshipEvent={type:"imported"|"inventory_synced"|"order_submitted"|"tracking_updated"|"exception";at:string;id:string};
