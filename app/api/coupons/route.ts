@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";
+import { discountFor, findCoupon } from "../../../lib/coupons";
+export async function POST(request: Request) { try { const { code, subtotal } = await request.json(); const coupon = findCoupon(String(code ?? "")); if (!coupon) return NextResponse.json({ error: "Invalid coupon" }, { status: 404 }); const amount = Number(subtotal); if (!Number.isFinite(amount) || amount < 0) return NextResponse.json({ error: "Invalid subtotal" }, { status: 400 }); const discount = discountFor(coupon, amount); if (!discount) return NextResponse.json({ error: "Coupon minimum not met" }, { status: 400 }); return NextResponse.json({ code: coupon.code, discount }); } catch { return NextResponse.json({ error: "Invalid request" }, { status: 400 }); } }
