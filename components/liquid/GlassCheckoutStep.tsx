@@ -1,0 +1,1 @@
+export function GlassCheckoutStep({number,title,active=false,done=false}:{number:number;title:string;active?:boolean;done?:boolean}){return <div className={`glass-checkout-step ${active?"active":""} ${done?"done":""}`}><span>{done?"✓":number}</span><strong>{title}</strong></div>}
