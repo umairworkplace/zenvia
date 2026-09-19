@@ -1,0 +1,1 @@
+export default function ReviewsPage(){return <main className="page narrow"><p className="eyebrow">COMMUNITY</p><h1>Product reviews.</h1><div className="table-card"><p className="muted">Verified customer reviews will be connected to products and orders in the review service.</p></div></main>}
