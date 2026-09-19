@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Discover(){return <main className="page"><p className="eyebrow">DISCOVER</p><h1>Find your next favorite.</h1><div className="glass-section"><h2>Explore by mood</h2><div className="category-pills"><Link href="/shop?category=tech">Future Tech</Link><Link href="/shop?category=home">Warm Home</Link><Link href="/shop?category=fashion">Everyday Style</Link><Link href="/shop?category=beauty">Self Care</Link></div></div></main>}
