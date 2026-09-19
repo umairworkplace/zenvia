@@ -1,0 +1,1 @@
+export function ProductSkeletonV2(){return <div className="product-skeleton" aria-hidden="true"><div className="skeleton-media"/><div className="skeleton-line"/><div className="skeleton-line short"/></div>}
