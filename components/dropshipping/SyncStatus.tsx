@@ -1,0 +1,1 @@
+export function SyncStatus({status}:{status:"idle"|"syncing"|"success"|"error"}){return <span className={`sync-status ${status}`}>{status==="syncing"?"Syncing…":status==="success"?"Synced":status==="error"?"Sync error":"Ready"}</span>}
