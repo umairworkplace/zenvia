@@ -1,0 +1,1 @@
+export function ImportQueue({items}:{items:{id:string;title:string;status:string}[]}){return <div className="import-queue">{items.map(x=><div key={x.id}><strong>{x.title}</strong><span>{x.status}</span></div>)}</div>}
