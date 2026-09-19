@@ -1,0 +1,1 @@
+export function cents(value:number){return Math.round(value*100);} export function dollars(value:number){return cents(value)/100;}
