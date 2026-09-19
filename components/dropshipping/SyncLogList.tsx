@@ -1,0 +1,1 @@
+export function SyncLogList({logs}:{logs:{operation:string;success:boolean;message:string}[]}){return <div className="sync-log-list">{logs.map((l,i)=><div key={i}><strong>{l.operation}</strong><span>{l.success?"Success":"Failed"}</span><p>{l.message}</p></div>)}</div>}
