@@ -1,0 +1,2 @@
+import {trackingIndex,trackingSteps} from "../lib/tracking";
+export function OrderTimeline({status}:{status:string}){const current=trackingIndex(status);return <ol className="order-timeline">{trackingSteps.map((step,i)=><li className={i<=current?"done":""} key={step}><span>{i<current?"✓":i===current?"•":"○"}</span><div><strong>{step}</strong>{i===current&&<small>Current status</small>}</div></li>)}</ol>}
