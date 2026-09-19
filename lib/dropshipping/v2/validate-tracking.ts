@@ -1,0 +1,1 @@
+export function validateTracking(t:{number?:string;status?:string}){return Boolean(t.number&&t.status);}
