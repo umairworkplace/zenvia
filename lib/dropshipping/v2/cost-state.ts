@@ -1,0 +1,1 @@
+export function costState(cost:number){return cost===0?"free":cost<10?"low":cost<50?"medium":"high" as const;}
