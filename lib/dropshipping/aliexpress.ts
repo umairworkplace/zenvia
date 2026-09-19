@@ -1,0 +1,2 @@
+import type {SupplierAdapter} from "./supplier";
+export const aliexpressSupplier:SupplierAdapter={name:"aliexpress",async importProduct(externalId){throw new Error(`AliExpress integration not configured: ${externalId}`)},async syncInventory(){throw new Error("AliExpress integration not configured")},async createOrder(){throw new Error("AliExpress integration not configured")},async getTracking(){throw new Error("AliExpress integration not configured")}};
