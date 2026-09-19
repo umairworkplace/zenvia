@@ -1,0 +1,1 @@
+export function searchTitles<T extends {title?:string}>(items:T[],query:string){const q=query.toLowerCase().trim();return q?items.filter(x=>x.title?.toLowerCase().includes(q)):items;}
