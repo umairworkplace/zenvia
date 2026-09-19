@@ -1,0 +1,1 @@
+export function OrderSyncRow({orderId,supplierOrderId,status}:{orderId:string;supplierOrderId?:string;status:string}){return <div className="glass-card"><b>{orderId}</b><span>{supplierOrderId||"Not submitted"} · {status}</span></div>}
