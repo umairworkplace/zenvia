@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function POST(r:Request){const{stock=0,buffer=2}=await r.json();return NextResponse.json({available:Math.max(0,Number(stock)-Number(buffer))})}
