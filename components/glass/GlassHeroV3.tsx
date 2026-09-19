@@ -1,0 +1,1 @@
+export function GlassHeroV3(){return <section className="glass-hero"><p className="eyebrow">THE NEW ZENVIA</p><h1>Discover what feels made for you.</h1><p>Curated products, intelligent discovery and a calmer way to shop.</p></section>}
