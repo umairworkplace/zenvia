@@ -1,0 +1,1 @@
+export function SyncStatus({running,lastRun}:{running:boolean;lastRun:string|null}){return <div className="glass-card"><b>{running?"Syncing…":"Sync idle"}</b><small>{lastRun||"No sync yet"}</small></div>}
