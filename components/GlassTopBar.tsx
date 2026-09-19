@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function GlassTopBar(){return <header className="glass-nav"><Link className="brand" href="/"><span className="brand-mark">Z</span><strong>ZENVIA</strong></Link><div className="search-glass">⌕ <span>Search products, brands, or anything...</span></div><nav><Link href="/">Home</Link><Link href="/shop">Shop</Link><Link href="/zenverse">3D Store</Link><Link href="/ai">AI Assistant</Link><Link href="/wishlist">♡</Link><Link href="/cart">🛒</Link></nav></header>}
