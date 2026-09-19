@@ -1,0 +1,1 @@
+export function retryAfter(seconds:number){return Math.max(0,Math.ceil(seconds));}
