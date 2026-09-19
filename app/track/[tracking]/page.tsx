@@ -1,0 +1,2 @@
+import {TrackingBadge} from "../../../components/dropshipping/TrackingBadge"; import {FulfillmentTimeline} from "../../../components/dropshipping/FulfillmentTimeline";
+export default async function TrackingPage({params}:{params:Promise<{tracking:string}>}){const{tracking}=await params;return <main className="page"><p className="eyebrow">PACKAGE TRACKING</p><h1>{tracking}</h1><TrackingBadge status="processing" trackingNumber={tracking}/><FulfillmentTimeline current="processing"/></main>}
