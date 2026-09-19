@@ -1,0 +1,1 @@
+"use client"; import {useState} from "react"; export function WishlistButton09(){const[s,setS]=useState(false);return <button className="liquid-icon" aria-label="Wishlist" onClick={()=>setS(!s)}>{s?"♥":"♡"}</button>}
