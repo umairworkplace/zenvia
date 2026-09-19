@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";
+import { db } from "../../../../../lib/db";
+export async function POST(request:Request){try{const {email}=await request.json();if(typeof email!=="string"||!email.includes("@"))return NextResponse.json({error:"Valid email required"},{status:400});const user=await db.user.upsert({where:{email:email.trim().toLowerCase()},update:{},create:{email:email.trim().toLowerCase()}});const response=NextResponse.json({user});response.cookies.set("zenvia_session",user.id,{httpOnly:true,secure:process.env.NODE_ENV==="production",sameSite:"lax",path:"/",maxAge:60*60*24*30});return response;}catch{return NextResponse.json({error:"Unable to sign in"},{status:500});}}
