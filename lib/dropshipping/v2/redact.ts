@@ -1,0 +1,1 @@
+export function redactSecret(value:string){return value?`${value.slice(0,4)}••••`:"";}
