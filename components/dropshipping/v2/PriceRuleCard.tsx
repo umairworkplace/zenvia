@@ -1,0 +1,1 @@
+export function PriceRuleCard({markup}:{markup:number}){return <div className="glass-card"><span>Default markup</span><strong>{markup}%</strong></div>}
