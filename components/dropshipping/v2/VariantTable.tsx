@@ -1,0 +1,1 @@
+export function VariantTable({variants}:{variants:{sku:string;price:number;stock:number}[]}){return <table><tbody>{variants.map(v=><tr key={v.sku}><td>{v.sku}</td><td>${v.price.toFixed(2)}</td><td>{v.stock}</td></tr>)}</tbody></table>}
