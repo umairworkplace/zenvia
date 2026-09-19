@@ -1,0 +1,1 @@
+export function isoNow(){return new Date().toISOString()} export function isFresh(iso:string,maxMinutes=30){return Date.now()-Date.parse(iso)<=maxMinutes*60000}
