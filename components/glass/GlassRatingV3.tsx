@@ -1,0 +1,1 @@
+export function GlassRatingV3({value=0,count}:{value?:number;count?:number}){return <span className="glass-rating" aria-label={`${value} out of 5 stars`}>★ {value.toFixed(1)} {count!==undefined&&<small>({count})</small>}</span>}
