@@ -1,0 +1,1 @@
+export function GlassPrice2026({value,oldValue}:{value:number;oldValue?:number}){return <div className="glass-price"><strong>${value.toFixed(2)}</strong>{oldValue&&<del>${oldValue.toFixed(2)}</del>}</div>}
