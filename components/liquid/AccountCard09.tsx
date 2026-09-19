@@ -1,0 +1,1 @@
+import Link from "next/link"; export function AccountCard09({name="Your account"}:{name?:string}){return <Link href="/account" className="liquid-account"><span className="avatar">{name[0]}</span><span><strong>{name}</strong><small>Orders · Wishlist · Settings</small></span></Link>}
