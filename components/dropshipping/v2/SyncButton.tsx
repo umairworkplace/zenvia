@@ -1,0 +1,1 @@
+"use client"; export function SyncButton({onClick}:{onClick:()=>void}){return <button className="glass-button" onClick={onClick}>Sync now</button>}
