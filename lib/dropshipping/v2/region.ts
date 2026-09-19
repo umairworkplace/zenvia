@@ -1,0 +1,1 @@
+export const supportedRegions=["US"] as const; export type SupportedRegion=typeof supportedRegions[number];
