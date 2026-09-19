@@ -1,0 +1,1 @@
+export function OrderFulfillmentCard({orderId,status,supplier}:{orderId:string;status:string;supplier:string}){return <div className="glass-card"><b>{orderId}</b><span>{supplier} · {status}</span></div>}
