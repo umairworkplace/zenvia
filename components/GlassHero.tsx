@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function GlassHero(){return <section className="glass-hero"><div><p className="eyebrow">NEW COLLECTION</p><h1>Smarter Choices.<br/>Better Living.</h1><p>AI-powered. 3D immersive. Personalized for you.</p><div className="hero-actions"><Link className="primary-glass" href="/zenverse">Explore 3D Store →</Link><Link className="soft-link" href="/shop">Shop collection</Link></div></div><div className="hero-object">◉</div></section>}
