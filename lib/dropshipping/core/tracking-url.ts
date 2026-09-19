@@ -1,0 +1,1 @@
+export function trackingUrl(number:string,carrier?:string){const n=encodeURIComponent(number);if(carrier?.toLowerCase().includes("ups"))return `https://www.ups.com/track?tracknum=${n}`;if(carrier?.toLowerCase().includes("fedex"))return `https://www.fedex.com/fedextrack/?trknbr=${n}`;return undefined;}
