@@ -1,0 +1,1 @@
+export type ImportMap={externalId:string;localProductId?:string;localVariantIds:Record<string,string>};
