@@ -1,0 +1,1 @@
+"use client"; export function SupplierTabs({value,onChange}:{value:string;onChange:(v:string)=>void}){return <div className="glass-tabs">{["cj","aliexpress","amazon"].map(s=><button key={s} className={value===s?"active":""} onClick={()=>onChange(s)}>{s}</button>)}</div>}
