@@ -1,0 +1,1 @@
+export function RecentlyViewed(){return <section className="recently-viewed"><p className="eyebrow">YOUR TRAIL</p><h2>Recently viewed</h2><p className="muted">Products you explore can appear here for quick return visits.</p></section>}
