@@ -1,0 +1,1 @@
+"use client"; export function ImportButton({onClick}:{onClick:()=>void}){return <button className="primary" onClick={onClick}>Import to Zenvia</button>}
