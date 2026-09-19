@@ -1,0 +1,1 @@
+export function ImportPreview({title,cost,variants}:{title:string;cost:number;variants:number}){return <div className="import-preview"><h3>{title}</h3><p>Supplier cost ${cost.toFixed(2)}</p><small>{variants} variants detected</small></div>}
