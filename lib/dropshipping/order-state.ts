@@ -1,0 +1,1 @@
+export const orderTransitions={pending:["submitted"],submitted:["processing","exception"],processing:["shipped","exception"],shipped:["delivered","exception"],delivered:[],exception:["processing"]} as const;
