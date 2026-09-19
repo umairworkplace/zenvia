@@ -1,0 +1,1 @@
+export function GlassFooter(){return <footer className="glass-footer"><span>♙ Secure Payments</span><span>🚚 Fast & Free Shipping</span><span>◌ 24/7 Support</span><span>↻ Easy Returns</span><span>✦ Trusted Reviews</span><b>ZENVIA</b></footer>}
