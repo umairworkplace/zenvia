@@ -1,0 +1,1 @@
+export function applyMarkup(cost:number,percent:number){return Number((cost*(1+percent/100)).toFixed(2));}
