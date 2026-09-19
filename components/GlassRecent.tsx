@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function GlassRecent(){return <section className="glass-recent"><div className="section-title"><h3>Recently Viewed</h3><Link href="/shop">View all</Link></div>{['iPhone 16','$999','PS5 Console','$499','Air Jordan 1','$179','MacBook Air M3','$1,099'].reduce<string[][]>((a,v,i)=>{if(i%2===0)a.push([v]);else a[a.length-1].push(v);return a},[]).map(([n,p])=><p key={n}>{n}<b>{p}</b></p>)}</section>}
