@@ -1,0 +1,1 @@
+export function ShippingQuote({method,cost,etaDays}:{method:string;cost:number;etaDays?:number}){return <div className="shipping-quote"><strong>{method}</strong><span>${cost.toFixed(2)}</span>{etaDays&&<small>{etaDays} day estimate</small>}</div>}
