@@ -1,0 +1,1 @@
+export type SupplierHealth={supplier:string;reachable:boolean;checkedAt:string}; export function health(supplier:string,reachable:boolean):SupplierHealth{return{supplier,reachable,checkedAt:new Date().toISOString()}}
