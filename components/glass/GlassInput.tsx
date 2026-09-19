@@ -1,0 +1,1 @@
+export function GlassInput({placeholder,value,onChange}:{placeholder?:string;value?:string;onChange?:(e:React.ChangeEvent<HTMLInputElement>)=>void}){return <input className="glass-input" placeholder={placeholder} value={value} onChange={onChange}/>} 
