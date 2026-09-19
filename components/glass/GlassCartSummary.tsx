@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function GlassCartSummary({subtotal,shipping=0}:{subtotal:number;shipping?:number}){const total=subtotal+shipping;return <aside className="glass-cart-summary"><span className="glass-badge">ORDER SUMMARY</span><div><span>Subtotal</span><b>${subtotal.toFixed(2)}</b></div><div><span>Shipping</span><b>{shipping?`$${shipping.toFixed(2)}`:"Free"}</b></div><div className="total"><span>Total</span><strong>${total.toFixed(2)}</strong></div><Link className="glass-button" href="/checkout">Proceed to checkout →</Link></aside>}
