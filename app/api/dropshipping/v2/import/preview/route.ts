@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function POST(r:Request){const b=await r.json();return NextResponse.json({supplier:b.supplier,externalId:b.externalId,ready:Boolean(b.supplier&&b.externalId)})}
