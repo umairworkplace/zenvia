@@ -1,0 +1,1 @@
+export function ErrorState({ message="Something went wrong.", retry }: { message?:string; retry?:()=>void }) { return <div className="error-state"><strong>We hit a snag.</strong><p>{message}</p>{retry ? <button className="ghost" onClick={retry}>Try again</button> : null}</div>; }
