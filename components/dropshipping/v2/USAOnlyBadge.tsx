@@ -1,0 +1,1 @@
+export function USAOnlyBadge(){return <span className="glass-badge">USA fulfillment</span>}
