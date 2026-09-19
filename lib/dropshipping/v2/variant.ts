@@ -1,0 +1,1 @@
+export type SupplierVariant={externalId:string;sku:string;price:number;stock:number;weight?:number}; export function variantKey(v:SupplierVariant){return v.sku||v.externalId}
