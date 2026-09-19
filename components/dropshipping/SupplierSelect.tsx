@@ -1,0 +1,1 @@
+"use client"; export function SupplierSelect({value,onChange}:{value:string;onChange:(v:string)=>void}){return <select value={value} onChange={e=>onChange(e.target.value)} aria-label="Supplier"><option value="cj">CJ Dropshipping</option><option value="aliexpress">AliExpress</option><option value="amazon">Amazon</option></select>}
