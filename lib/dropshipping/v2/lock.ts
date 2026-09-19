@@ -1,0 +1,1 @@
+export function lockKey(resource:string){return `dropship:lock:${resource}`;}
