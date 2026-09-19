@@ -1,0 +1,1 @@
+export function validateShipping(s:{name?:string;address?:string;city?:string;zip?:string;country?:string}){return Boolean(s.name&&s.address&&s.city&&s.zip&&s.country);}
