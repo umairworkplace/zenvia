@@ -1,0 +1,1 @@
+export function TrackingTimeline({events}:{events:{status:string;at:string}[]}){return <div>{events.map((e,i)=><div key={i}><b>{e.status}</b><small>{new Date(e.at).toLocaleString()}</small></div>)}</div>}
