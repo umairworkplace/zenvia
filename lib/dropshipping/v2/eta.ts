@@ -1,0 +1,1 @@
+export function etaLabel(days:number){return days<=1?"1 day":`${days} days`;}
