@@ -1,0 +1,1 @@
+export function GlassDealCardV3({label,title,cta}:{label:string;title:string;cta:string}){return <article className="glass-deal-card"><span>{label}</span><h3>{title}</h3><button className="glass-button">{cta}</button></article>}
