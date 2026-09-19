@@ -1,0 +1,1 @@
+export function carrierLabel(carrier?:string){return carrier?.trim()||"Unknown carrier";}
