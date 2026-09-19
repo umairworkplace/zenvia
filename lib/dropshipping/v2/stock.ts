@@ -1,0 +1,1 @@
+export function availableStock(stock:number,buffer=2){return Math.max(0,stock-buffer);}
