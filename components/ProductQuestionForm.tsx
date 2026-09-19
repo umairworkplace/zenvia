@@ -1,0 +1,3 @@
+"use client";
+import{useState}from"react";
+export function ProductQuestionForm(){const[q,setQ]=useState("");const[msg,setMsg]=useState("");async function submit(e:React.FormEvent){e.preventDefault();const r=await fetch("/api/qna",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q})});setMsg(r.ok?"Question submitted.":"Please sign in first.");if(r.ok)setQ("");}return <form className="qna-form" onSubmit={submit}><textarea required value={q} onChange={e=>setQ(e.target.value)} placeholder="Ask about this product…"/><button className="ghost">Ask question</button>{msg&&<small>{msg}</small>}</form>}
