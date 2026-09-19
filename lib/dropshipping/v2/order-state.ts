@@ -1,0 +1,1 @@
+export function orderState(status:string){return status==="delivered"?"complete":status==="exception"?"attention":status==="shipped"?"in-transit":"active";}
