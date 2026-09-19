@@ -1,0 +1,3 @@
+"use client";
+import{useState}from"react";
+export function AIShoppingPrompt(){const[q,setQ]=useState("");const[answer,setAnswer]=useState("");async function ask(){if(!q.trim())return;setAnswer("Thinking…");const r=await fetch("/api/ai/recommend",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query:q})});const d=await r.json();setAnswer(d.answer??"I can help you discover products.");}return <section className="ai-prompt"><p className="eyebrow">ZEN AI</p><h2>Tell me what you need.</h2><div><input value={q} onChange={e=>setQ(e.target.value)} placeholder="e.g. a gift for a tech lover"/><button className="primary" onClick={ask}>Ask AI</button></div>{answer&&<p className="ai-answer">{answer}</p>}</section>}
