@@ -1,0 +1,1 @@
+"use client"; export function SupplierSelector({value,onChange}:{value:string;onChange:(v:string)=>void}){return <select value={value} onChange={e=>onChange(e.target.value)}><option value="cj">CJ Dropshipping</option><option value="aliexpress">AliExpress</option><option value="amazon">Amazon</option></select>}
