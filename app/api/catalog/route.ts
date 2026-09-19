@@ -1,0 +1,3 @@
+import {NextResponse} from "next/server";
+import {db} from "../../../lib/db";
+export async function GET(request:Request){const p=new URL(request.url).searchParams;const q=p.get("q")?.trim();const category=p.get("category")?.trim();const sort=p.get("sort")||"newest";const orderBy=sort==="price-asc"?{price:"asc" as const}:sort==="price-desc"?{price:"desc" as const}:{createdAt:"desc" as const};const products=await db.product.findMany({where:{active:true,...(category?{category}:{}),...(q?{OR:[{name:{contains:q,mode:"insensitive"}},{description:{contains:q,mode:"insensitive"}}]}:{})},orderBy});return NextResponse.json({products});}
