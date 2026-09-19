@@ -1,0 +1,1 @@
+export function InventoryBadge({stock}:{stock:number}){return <span className="glass-badge">{stock>0?`${stock} available`:"Out of stock"}</span>}
