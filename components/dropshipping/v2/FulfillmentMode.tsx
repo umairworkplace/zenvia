@@ -1,0 +1,1 @@
+export function FulfillmentMode({mode}:{mode:"automatic"|"manual"}){return <span className="glass-badge">{mode==='automatic'?"Auto fulfillment":"Manual fulfillment"}</span>}
