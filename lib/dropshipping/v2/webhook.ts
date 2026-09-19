@@ -1,0 +1,1 @@
+export function webhookSignature(secret:string,payload:string){return secret?`${payload.length}:${secret.length}`:"";}
