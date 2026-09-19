@@ -1,0 +1,1 @@
+export function TrackingBadge({status,number}:{status:string;number?:string}){return <span className="glass-badge">{status}{number?` · ${number}`:""}</span>}
