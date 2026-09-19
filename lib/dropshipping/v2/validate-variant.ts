@@ -1,0 +1,1 @@
+export function validateVariant(v:{externalId?:string;sku?:string;price?:number}){return Boolean(v.externalId&&v.sku&&Number(v.price)>=0);}
