@@ -1,0 +1,1 @@
+export function validateShippingAddress(a:Record<string,unknown>){for(const k of ["name","address","city","state","zip","country"]){if(!String(a[k]??"").trim())throw new Error(`Missing shipping field: ${k}`)}return true;}
