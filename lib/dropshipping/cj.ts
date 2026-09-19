@@ -1,0 +1,2 @@
+import type {SupplierAdapter,SupplierProduct} from "./supplier";
+export const cjSupplier:SupplierAdapter={name:"cj",async importProduct(externalId){throw new Error(`CJ integration not configured: ${externalId}`)},async syncInventory(){throw new Error("CJ integration not configured")},async createOrder(){throw new Error("CJ integration not configured")},async getTracking(){throw new Error("CJ integration not configured")}};
