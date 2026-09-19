@@ -1,0 +1,1 @@
+export function syncMetrics(updated:number,failed:number){return{updated,failed,total:updated+failed};}
