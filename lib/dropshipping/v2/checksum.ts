@@ -1,0 +1,1 @@
+export function simpleChecksum(value:string){let n=0;for(const c of value)n=(n+c.charCodeAt(0))%1000003;return n.toString(36);}
