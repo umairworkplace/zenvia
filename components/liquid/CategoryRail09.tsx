@@ -1,0 +1,1 @@
+import Link from "next/link"; export function CategoryRail09({items}:{items:string[]}){return <div className="liquid-category-rail">{items.map(x=><Link key={x} href={`/shop?category=${encodeURIComponent(x)}`}>{x}</Link>)}</div>}
