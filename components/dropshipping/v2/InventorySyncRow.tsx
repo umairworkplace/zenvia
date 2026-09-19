@@ -1,0 +1,1 @@
+export function InventorySyncRow({sku,local,supplier}:{sku:string;local:number;supplier:number}){return <div className="glass-card"><b>{sku}</b><span>Zenvia {local} · Supplier {supplier}</span></div>}
