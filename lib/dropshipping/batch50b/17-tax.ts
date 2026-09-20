@@ -1,0 +1,1 @@
+export function taxAmount(subtotal:number,rate:number){return Number((subtotal*Math.max(0,rate)/100).toFixed(2));}
