@@ -1,0 +1,1 @@
+export type SyncError={code:string;message:string;retryable:boolean;externalId?:string};
