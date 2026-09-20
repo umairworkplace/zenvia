@@ -1,0 +1,1 @@
+export function grossMargin(sell:number,cost:number){return sell>0?Number(((sell-cost)/sell*100).toFixed(2)):0;}
