@@ -1,0 +1,1 @@
+export const isSyncSuccessful=(status:string)=>['success','completed'].includes(status.trim().toLowerCase());
