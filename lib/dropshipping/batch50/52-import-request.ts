@@ -1,0 +1,1 @@
+export type ImportRequest={supplier:"cj"|"aliexpress"|"amazon";externalId:string};
