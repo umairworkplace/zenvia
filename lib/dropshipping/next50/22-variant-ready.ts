@@ -1,0 +1,1 @@
+export function isVariantReady(sku:string,stock:number){return sku.trim().length>0&&stock>=0;}
