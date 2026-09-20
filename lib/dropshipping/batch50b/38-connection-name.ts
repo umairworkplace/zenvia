@@ -1,0 +1,1 @@
+export function connectionName(supplier:string,account:string){return `${supplier} · ${account}`;}
