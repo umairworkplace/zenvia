@@ -1,0 +1,1 @@
+export const pageToken=(page:number)=>String(Math.max(1,page));
