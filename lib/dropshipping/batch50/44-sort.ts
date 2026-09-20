@@ -1,0 +1,1 @@
+export const sortByUpdated=(a:{updatedAt:string},b:{updatedAt:string})=>b.updatedAt.localeCompare(a.updatedAt);
