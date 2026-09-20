@@ -1,0 +1,1 @@
+export const EVENT_TYPES=["product.imported","inventory.updated","order.submitted","tracking.updated","sync.failed"] as const;
