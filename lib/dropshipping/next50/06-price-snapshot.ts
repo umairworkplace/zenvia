@@ -1,0 +1,1 @@
+export type PriceSnapshot={externalVariantId:string;cost:number;shipping:number;currency:string;updatedAt:string};
