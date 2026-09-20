@@ -1,0 +1,1 @@
+export function roundPrice(value:number,step=0.01){return Math.round(value/step)*step;}
