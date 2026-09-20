@@ -1,0 +1,1 @@
+export const suppliers=["cj","aliexpress","amazon"] as const;
