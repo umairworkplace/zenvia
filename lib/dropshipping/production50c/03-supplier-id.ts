@@ -1,0 +1,1 @@
+export const normalizeSupplierId=(id:string)=>id.trim().toLowerCase();
