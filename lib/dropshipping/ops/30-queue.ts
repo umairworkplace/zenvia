@@ -1,0 +1,1 @@
+export type QueueItem<T>={id:string;payload:T}; export const queueItem=<T>(id:string,payload:T):QueueItem<T>=>({id,payload});
