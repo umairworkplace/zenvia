@@ -1,0 +1,1 @@
+export const isStale=(updatedAt:string,maxAgeMs:number)=>Date.now()-Date.parse(updatedAt)>maxAgeMs;
