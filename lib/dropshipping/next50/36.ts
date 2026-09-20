@@ -1,0 +1,1 @@
+export const phoneMax=32;
