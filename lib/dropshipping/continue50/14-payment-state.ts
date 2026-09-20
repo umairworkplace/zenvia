@@ -1,0 +1,1 @@
+export const PAYMENT_STATES=['pending','authorized','paid','failed','refunded'] as const;
