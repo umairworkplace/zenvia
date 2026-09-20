@@ -1,0 +1,1 @@
+export function bySupplier<T extends {supplier:string}>(items:T[],supplier:string){return items.filter(x=>x.supplier===supplier);}
