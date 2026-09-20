@@ -1,0 +1,1 @@
+export function variantKey(product:string,variant:string){return `${product}:${variant}`;}
