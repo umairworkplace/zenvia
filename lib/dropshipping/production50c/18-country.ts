@@ -1,0 +1,1 @@
+export const isUnitedStates=(country:string)=>['US','USA','UNITED STATES'].includes(country.trim().toUpperCase());
