@@ -1,0 +1,1 @@
+export const sourcePriority=["cj","aliexpress","amazon"] as const;
