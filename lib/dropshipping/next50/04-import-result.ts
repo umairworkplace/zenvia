@@ -1,0 +1,1 @@
+export type ImportResult={productId?:string;externalId:string;ok:boolean;message?:string};
