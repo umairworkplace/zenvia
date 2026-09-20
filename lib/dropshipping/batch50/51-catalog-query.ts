@@ -1,0 +1,1 @@
+export type CatalogQuery={q?:string;page?:number;limit?:number};
