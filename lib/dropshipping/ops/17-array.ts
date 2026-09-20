@@ -1,0 +1,1 @@
+export const asArray=<T>(v:T|T[])=>Array.isArray(v)?v:[v];
