@@ -1,0 +1,1 @@
+export function pageOffset(page:number,size:number){return Math.max(0,page-1)*Math.max(1,size);}
