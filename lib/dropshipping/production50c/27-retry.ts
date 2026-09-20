@@ -1,0 +1,1 @@
+export const retryDelay=(attempt:number,base=500)=>Math.min(30000,base*2**Math.max(0,attempt));
