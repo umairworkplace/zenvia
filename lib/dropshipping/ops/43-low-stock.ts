@@ -1,0 +1,1 @@
+export const lowStock=(stock:number,threshold=5)=>stock<=threshold;
