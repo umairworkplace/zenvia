@@ -1,0 +1,1 @@
+export const INVENTORY_SYNC_INTERVAL=15*60;
