@@ -1,0 +1,1 @@
+export function stockStatus(stock:number){return stock<=0?"out_of_stock":stock<5?"low_stock":"in_stock";}
