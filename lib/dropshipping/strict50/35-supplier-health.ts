@@ -1,0 +1,1 @@
+export const supplierHealth=(success:number,failed:number)=>({success,failed,healthy:failed===0||success>=failed*3});
