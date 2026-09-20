@@ -1,0 +1,1 @@
+export const paginate=<T>(xs:T[],page:number,limit:number)=>{const offset=Math.max(0,page-1)*Math.max(1,limit);return xs.slice(offset,offset+Math.max(1,limit));};
