@@ -1,0 +1,1 @@
+export const shippingTotal=(base:number,discount=0)=>Math.max(0,base-discount);
