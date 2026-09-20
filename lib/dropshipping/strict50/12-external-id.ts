@@ -1,0 +1,1 @@
+export const externalId=(value:string)=>value.trim();
