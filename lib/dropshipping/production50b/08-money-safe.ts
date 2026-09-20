@@ -1,0 +1,1 @@
+export const safeMoney=(value:number)=>Number.isFinite(value)?Math.max(0,value):0;
