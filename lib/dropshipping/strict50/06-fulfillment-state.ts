@@ -1,0 +1,1 @@
+export const fulfillmentStates=["queued","submitted","accepted","shipped","delivered","failed"] as const;
