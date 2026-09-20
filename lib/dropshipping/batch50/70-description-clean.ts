@@ -1,0 +1,1 @@
+export function cleanDescription(html:string){return html.replace(/<script[\s\S]*?<\/script>/gi,"").trim();}
