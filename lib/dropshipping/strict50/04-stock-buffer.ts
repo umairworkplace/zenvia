@@ -1,0 +1,1 @@
+export const stockBuffer={defaultUnits:2};
