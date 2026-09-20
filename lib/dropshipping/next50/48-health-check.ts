@@ -1,0 +1,1 @@
+export function supplierHealthy(latencyMs:number,errorRate:number){return latencyMs>=0&&latencyMs<5000&&errorRate<0.1;}
