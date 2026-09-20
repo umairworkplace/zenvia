@@ -1,0 +1,1 @@
+export const percent=(value:number,rate:number)=>value*rate/100;
