@@ -1,0 +1,1 @@
+export const markup=(cost:number,pct:number)=>cost+(cost*pct/100);
