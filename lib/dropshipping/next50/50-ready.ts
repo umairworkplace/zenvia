@@ -1,0 +1,1 @@
+export const readyForFulfillment=(paid:boolean,stock:number,hasAddress:boolean)=>paid&&stock>0&&hasAddress;
