@@ -1,0 +1,1 @@
+export function validMoney(value:number){return Number.isFinite(value)&&value>=0;}
