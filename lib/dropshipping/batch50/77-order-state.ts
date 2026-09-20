@@ -1,0 +1,1 @@
+export const ORDER_STATES=["pending","paid","submitted","processing","shipped","delivered","cancelled","refunded"] as const;
