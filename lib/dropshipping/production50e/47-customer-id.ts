@@ -1,0 +1,1 @@
+export const customerId=(v:string)=>v.trim();
