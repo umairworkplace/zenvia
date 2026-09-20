@@ -1,0 +1,1 @@
+export const userAgent="Zenvia-Dropshipping/1.0";
