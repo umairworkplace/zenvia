@@ -1,0 +1,1 @@
+export const normalizeSku=(sku:string)=>sku.trim().toUpperCase();
