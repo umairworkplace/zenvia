@@ -1,0 +1,1 @@
+export type NotificationKind="import"|"stock"|"order"|"shipping"|"delivery"|"exception";
