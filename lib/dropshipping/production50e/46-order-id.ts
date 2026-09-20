@@ -1,0 +1,1 @@
+export const orderId=(v:string)=>v.trim();
