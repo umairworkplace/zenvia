@@ -1,0 +1,1 @@
+export type ImportCommand={source:ProductSource;requestedBy:string};
