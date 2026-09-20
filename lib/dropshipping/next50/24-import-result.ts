@@ -1,0 +1,1 @@
+export type ImportResult={productId:string;created:boolean;updated:boolean};
