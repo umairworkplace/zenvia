@@ -1,0 +1,1 @@
+export type SupplierOrder={orderId:string;supplierOrderId?:string;status:"pending"|"submitted"|"failed"};
