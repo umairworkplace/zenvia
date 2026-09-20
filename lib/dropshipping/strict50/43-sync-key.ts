@@ -1,0 +1,1 @@
+export const syncKey=(supplier:string,scope:string)=>`${supplier}:sync:${scope}`;
