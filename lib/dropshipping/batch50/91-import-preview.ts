@@ -1,0 +1,1 @@
+export type ImportPreview={title:string;images:number;variants:number;estimatedCost:number;estimatedPrice:number};
