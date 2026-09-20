@@ -1,0 +1,1 @@
+export const normalizeCarrier=(v:string)=>v.trim().toUpperCase();
