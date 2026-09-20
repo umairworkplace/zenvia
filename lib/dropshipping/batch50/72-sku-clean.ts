@@ -1,0 +1,1 @@
+export function cleanSku(sku:string){return sku.trim().replace(/\s+/g,"-").slice(0,80);}
