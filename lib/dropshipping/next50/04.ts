@@ -1,0 +1,1 @@
+export const pricingMode="markup" as const;
