@@ -1,0 +1,1 @@
+export const defaultState="pending" as const;
