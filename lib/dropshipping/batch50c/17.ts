@@ -1,0 +1,1 @@
+export const EVENT_ORDER_SUBMITTED="order.submitted";
