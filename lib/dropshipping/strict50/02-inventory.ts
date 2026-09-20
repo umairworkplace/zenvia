@@ -1,0 +1,1 @@
+export const inventorySync={enabled:true,intervalMinutes:15};
