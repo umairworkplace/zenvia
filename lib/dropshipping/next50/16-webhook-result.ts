@@ -1,0 +1,1 @@
+export type WebhookResult={accepted:boolean;duplicate?:boolean;message?:string};
