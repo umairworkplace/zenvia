@@ -1,1 +1,1 @@
-export type ImportCommand={source:ProductSource;requestedBy:string};
+export type ImportCommand={source:{supplierId:string;externalId:string;sku?:string};requestedBy:string};
