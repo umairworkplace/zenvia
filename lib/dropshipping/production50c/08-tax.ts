@@ -1,0 +1,1 @@
+export const calculateTax=(subtotal:number,rate:number)=>roundTax(subtotal*rate/100); const roundTax=(v:number)=>Math.round(v*100)/100;
