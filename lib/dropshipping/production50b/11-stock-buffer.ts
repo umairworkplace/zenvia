@@ -1,0 +1,1 @@
+export const withStockBuffer=(stock:number,buffer=2)=>Math.max(0,stock-buffer);
