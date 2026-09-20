@@ -1,0 +1,1 @@
+export const normalizeCarrier=(carrier:string)=>carrier.trim().toLowerCase().replace(/\s+/g,'-');
