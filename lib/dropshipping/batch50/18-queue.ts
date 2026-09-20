@@ -1,0 +1,1 @@
+export type QueueJob={id:string;kind:string;attempts:number}; export const queueJob=(kind:string,id:string):QueueJob=>({kind,id,attempts:0});
