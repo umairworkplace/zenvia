@@ -1,0 +1,1 @@
+export const supplierHealthy=(lastSuccess?:string)=>!!lastSuccess&&Date.now()-Date.parse(lastSuccess)<86400000;
