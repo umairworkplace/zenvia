@@ -1,0 +1,1 @@
+export type FulfillmentEvent={orderId:string;status:string;timestamp:string;source:"supplier"|"system"|"admin"};
