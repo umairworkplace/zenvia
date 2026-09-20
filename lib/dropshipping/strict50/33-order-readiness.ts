@@ -1,0 +1,1 @@
+export const orderReady=(total:number,currency:string)=>total>0&&currency.length===3;
