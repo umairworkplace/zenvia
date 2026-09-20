@@ -1,0 +1,1 @@
+export const sourceProductKey=(source:string,id:string)=>`${source.trim().toLowerCase()}:${id.trim()}`;
