@@ -1,0 +1,1 @@
+export type ShipmentLink={supplierOrderId:string;trackingNumber?:string;carrier?:string};
