@@ -1,0 +1,1 @@
+export const syncLock=(key:string)=>`sync:${key}`;
