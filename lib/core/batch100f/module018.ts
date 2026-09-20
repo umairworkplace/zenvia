@@ -1,0 +1,1 @@
+export const positiveInt=(x:number)=>Number.isInteger(x)&&x>0;
