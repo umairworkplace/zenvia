@@ -1,0 +1,1 @@
+export const taxAmount=(subtotal:number,rate:number)=>Math.round(subtotal*rate*100)/100;
