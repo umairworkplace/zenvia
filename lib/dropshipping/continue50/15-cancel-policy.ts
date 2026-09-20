@@ -1,0 +1,1 @@
+export function canCancel(state:string){return ['pending','submitted','processing'].includes(state);}
