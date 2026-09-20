@@ -1,0 +1,1 @@
+export function effectiveStock(stock:number,reserve=0){return Math.max(0,Math.floor(stock)-Math.max(0,Math.floor(reserve)));}
