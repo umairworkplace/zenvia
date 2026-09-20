@@ -1,0 +1,1 @@
+export const orderTotal=(subtotal:number,shipping:number,tax:number,discount:number)=>Math.max(0,subtotal+shipping+tax-discount);
