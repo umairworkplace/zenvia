@@ -1,0 +1,1 @@
+export function targetPrice(cost:number,marginPercent:number){if(cost<0||marginPercent>=100)throw new Error("Invalid margin");return Number((cost/(1-marginPercent/100)).toFixed(2));}
