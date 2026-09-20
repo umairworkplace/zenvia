@@ -1,0 +1,1 @@
+export function shippingEstimate(daysMin:number,daysMax:number){return {min:Math.max(0,daysMin),max:Math.max(daysMin,daysMax)}}
