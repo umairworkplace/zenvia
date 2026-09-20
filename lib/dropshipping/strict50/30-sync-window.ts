@@ -1,0 +1,1 @@
+export const syncWindow=(minutes:number)=>({from:new Date(Date.now()-minutes*60000),to:new Date()});
