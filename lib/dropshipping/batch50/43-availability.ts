@@ -1,0 +1,1 @@
+export const available=(stock:number)=>stock>0;
