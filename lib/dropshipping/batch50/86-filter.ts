@@ -1,0 +1,1 @@
+export function nonEmptyFilter<T>(items:T[],predicate:(x:T)=>boolean){return items.filter(predicate);}
