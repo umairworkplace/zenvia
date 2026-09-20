@@ -1,0 +1,1 @@
+export const isUSCountry=(v:string)=>["US","USA","UNITED STATES","UNITED STATES OF AMERICA"].includes(v.trim().toUpperCase());
