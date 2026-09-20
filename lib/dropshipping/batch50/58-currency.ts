@@ -1,0 +1,1 @@
+export function convertCurrency(amount:number,rate:number){if(!Number.isFinite(amount)||!Number.isFinite(rate)||rate<=0)throw new Error("Invalid currency rate");return Number((amount*rate).toFixed(2));}
