@@ -1,0 +1,1 @@
+export const PRICE_SYNC_INTERVAL=30*60;
