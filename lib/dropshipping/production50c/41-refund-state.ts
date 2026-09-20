@@ -1,0 +1,1 @@
+export const canRefund=(status:string)=>['paid','fulfilled','cancelled'].includes(status.trim().toLowerCase());
