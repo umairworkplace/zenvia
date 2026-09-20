@@ -1,0 +1,1 @@
+export type ImportRecord={externalId:string;productId?:string;createdAt:string;status:"queued"|"ready"|"failed"};
