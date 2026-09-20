@@ -1,0 +1,1 @@
+export const SYNC_ACTIONS=["products","inventory","prices","orders","tracking"] as const;
