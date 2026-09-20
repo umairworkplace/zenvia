@@ -1,0 +1,1 @@
+export const NOTIFICATION_ORDER_SHIPPED="order.shipped";
