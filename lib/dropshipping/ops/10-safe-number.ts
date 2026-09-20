@@ -1,0 +1,1 @@
+export const safeNumber=(v:unknown,fallback=0)=>Number.isFinite(Number(v))?Number(v):fallback;
