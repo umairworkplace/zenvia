@@ -1,0 +1,1 @@
+export const titleCase=(x:string)=>x.toLowerCase().replace(/\b\w/g,c=>c.toUpperCase());

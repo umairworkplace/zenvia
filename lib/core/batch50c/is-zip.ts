@@ -1,0 +1,1 @@
+export const isZip=(x:string)=>/^\d{5}(-\d{4})?$/.test(x.trim());

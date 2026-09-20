@@ -1,0 +1,1 @@
+export const sortAsc=(x:number[])=>[...x].sort((a,b)=>a-b);

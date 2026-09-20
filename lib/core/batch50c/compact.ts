@@ -1,0 +1,1 @@
+export const compact=<T>(x:(T|null|undefined|false|0|'')[])=>x.filter(Boolean) as T[];

@@ -1,0 +1,1 @@
+export const truncate=(x:string,max:number)=>x.length>max?x.slice(0,Math.max(0,max-1))+'…':x;

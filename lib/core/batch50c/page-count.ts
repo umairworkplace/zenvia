@@ -1,0 +1,1 @@
+export const pageCount=(total:number,size:number)=>Math.ceil(total/size);

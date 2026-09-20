@@ -1,0 +1,1 @@
+export const average=(x:number[])=>x.length?x.reduce((a,b)=>a+b,0)/x.length:0;

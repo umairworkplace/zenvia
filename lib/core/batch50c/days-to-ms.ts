@@ -1,0 +1,1 @@
+export const daysToMs=(days:number)=>days*86400000;

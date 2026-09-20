@@ -1,0 +1,1 @@
+export const timeout=(ms:number)=>new Promise<never>((_,reject)=>setTimeout(()=>reject(new Error('Timeout')),ms));

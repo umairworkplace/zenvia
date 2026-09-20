@@ -1,0 +1,1 @@
+export const includesIgnoreCase=(x:string,q:string)=>x.toLowerCase().includes(q.toLowerCase());

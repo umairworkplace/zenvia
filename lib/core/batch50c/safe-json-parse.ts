@@ -1,0 +1,1 @@
+export const safeJsonParse=<T>(x:string,fallback:T):T=>{try{return JSON.parse(x) as T}catch{return fallback}};

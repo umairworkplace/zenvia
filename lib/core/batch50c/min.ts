@@ -1,0 +1,1 @@
+export const min=(x:number[])=>x.length?Math.min(...x):0;

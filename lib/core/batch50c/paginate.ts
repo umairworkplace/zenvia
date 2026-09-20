@@ -1,0 +1,1 @@
+export const paginate=<T>(x:T[],page:number,size:number)=>x.slice(Math.max(0,page-1)*size,Math.max(0,page-1)*size+size);

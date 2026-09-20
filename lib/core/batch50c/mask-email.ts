@@ -1,0 +1,1 @@
+export const maskEmail=(x:string)=>{const [u,d]=x.split('@');return u&&d?`${u[0]}***@${d}`:x;};

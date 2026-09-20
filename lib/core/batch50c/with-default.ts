@@ -1,0 +1,1 @@
+export const withDefault=<T>(x:T|undefined,fallback:T)=>x===undefined?fallback:x;

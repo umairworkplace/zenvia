@@ -1,0 +1,1 @@
+export const percentDiscount=(price:number,pct:number)=>Math.max(0,price*(1-pct/100));

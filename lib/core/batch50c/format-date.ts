@@ -1,0 +1,1 @@
+export const formatDate=(x:string)=>new Intl.DateTimeFormat('en-US').format(new Date(x));

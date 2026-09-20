@@ -1,0 +1,1 @@
+export const groupBy=<T>(x:T[],key:(v:T)=>string)=>x.reduce<Record<string,T[]>>((a,v)=>((a[key(v)]??=[]).push(v),a),{});

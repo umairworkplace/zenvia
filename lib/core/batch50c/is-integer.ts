@@ -1,0 +1,1 @@
+export const isInteger=(x:number)=>Number.isInteger(x);

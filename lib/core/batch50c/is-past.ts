@@ -1,0 +1,1 @@
+export const isPast=(date:string,now=Date.now())=>new Date(date).getTime()<now;

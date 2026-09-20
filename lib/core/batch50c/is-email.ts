@@ -1,0 +1,1 @@
+export const isEmail=(x:string)=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(x.trim());

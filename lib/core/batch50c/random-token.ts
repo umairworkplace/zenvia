@@ -1,0 +1,1 @@
+export const randomToken=(length=16)=>Array.from({length},()=>Math.floor(Math.random()*36).toString(36)).join('');

@@ -1,0 +1,1 @@
+export const omit=<T extends object,K extends keyof T>(x:T,keys:K[])=>{const y={...x} as any;keys.forEach(k=>delete y[k]);return y;};

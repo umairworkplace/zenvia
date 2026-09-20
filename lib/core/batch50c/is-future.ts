@@ -1,0 +1,1 @@
+export const isFuture=(date:string,now=Date.now())=>new Date(date).getTime()>now;

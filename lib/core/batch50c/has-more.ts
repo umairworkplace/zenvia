@@ -1,0 +1,1 @@
+export const hasMore=(page:number,size:number,total:number)=>page*size<total;

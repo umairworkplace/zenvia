@@ -1,0 +1,1 @@
+export const pick=<T extends object,K extends keyof T>(x:T,keys:K[])=>Object.fromEntries(keys.map(k=>[k,x[k]])) as Pick<T,K>;

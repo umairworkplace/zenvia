@@ -1,0 +1,1 @@
+export const hasItems=(x:unknown[])=>x.length>0;

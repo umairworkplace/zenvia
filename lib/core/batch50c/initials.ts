@@ -1,0 +1,1 @@
+export const initials=(x:string)=>x.trim().split(/\s+/).map(v=>v[0]).join('').slice(0,2).toUpperCase();

@@ -1,0 +1,1 @@
+export const max=(x:number[])=>x.length?Math.max(...x):0;
