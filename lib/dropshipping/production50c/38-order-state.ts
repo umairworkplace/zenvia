@@ -1,0 +1,1 @@
+export const isPaidOrder=(status:string)=>status.trim().toLowerCase()==='paid';
