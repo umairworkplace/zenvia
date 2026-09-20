@@ -1,0 +1,1 @@
+export const maxCustomerNameLength=120;
