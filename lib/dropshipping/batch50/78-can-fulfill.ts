@@ -1,0 +1,1 @@
+export function canFulfill(status:string){return status==="paid"||status==="processing";}
