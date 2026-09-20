@@ -1,0 +1,1 @@
+export const canCancel=(status:string)=>!["shipped","delivered"].includes(status);
