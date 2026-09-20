@@ -1,0 +1,1 @@
+export const isPositiveStock=(value:number)=>Number.isInteger(value)&&value>0;
