@@ -1,0 +1,1 @@
+export function nextPageToken(page:number,size:number){return Buffer.from(`${page+1}:${size}`).toString('base64url');}
