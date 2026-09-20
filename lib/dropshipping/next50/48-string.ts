@@ -1,0 +1,1 @@
+export const cleanString=(v:unknown)=>typeof v==="string"?v.trim():"";
