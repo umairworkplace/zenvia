@@ -1,0 +1,1 @@
+export const isValidId=(x:string)=>x.trim().length>0;
