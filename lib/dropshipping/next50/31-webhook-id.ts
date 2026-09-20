@@ -1,0 +1,1 @@
+export const webhookId=(provider:string,event:string,id:string)=>`${provider}:${event}:${id}`;
