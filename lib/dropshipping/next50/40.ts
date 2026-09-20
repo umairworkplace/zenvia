@@ -1,0 +1,1 @@
+export const zipCodePattern=/^\d{5}(?:-\d{4})?$/;
