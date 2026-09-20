@@ -1,0 +1,1 @@
+export const marginPercent=(sell:number,cost:number)=>sell?((sell-cost)/sell)*100:0;
