@@ -1,0 +1,1 @@
+export type Shipment={trackingNumber?:string;carrier?:string;status:string};
