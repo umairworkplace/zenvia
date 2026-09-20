@@ -1,0 +1,1 @@
+export const averageOrderValue=(revenue:number,orders:number)=>orders>0?revenue/orders:0;

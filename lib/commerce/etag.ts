@@ -1,0 +1,1 @@
+export const etag=(value:string)=>`W/\"${value.length.toString(16)}\"`;

@@ -1,0 +1,1 @@
+export const webhookAge=(received:string,now=Date.now())=>Math.max(0,now-new Date(received).getTime());

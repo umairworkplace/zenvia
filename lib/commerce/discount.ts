@@ -1,0 +1,1 @@
+export const discountAmount=(subtotal:number,percent:number)=>Math.max(0,subtotal*percent/100);

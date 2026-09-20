@@ -1,0 +1,1 @@
+export const orderLineCount=(items:{quantity:number}[])=>items.reduce((n,x)=>n+x.quantity,0);

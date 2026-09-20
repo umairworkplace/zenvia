@@ -1,0 +1,1 @@
+export const fulfillmentProgress=(status:string)=>({pending:0,processing:40,shipped:70,delivered:100}[status as 'pending']??0);

@@ -1,0 +1,1 @@
+export const shippingProgress=(subtotal:number,threshold:number)=>Math.min(100,Math.max(0,subtotal/threshold*100));

@@ -1,0 +1,1 @@
+export const featureEnabled=(flags:Record<string,boolean>,name:string)=>flags[name]===true;

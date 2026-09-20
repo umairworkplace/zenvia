@@ -1,0 +1,1 @@
+export const retryableStatus=(status:number)=>status===408||status===429||status>=500;

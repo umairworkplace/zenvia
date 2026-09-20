@@ -1,0 +1,1 @@
+export const dueDate=(days:number,from=new Date())=>new Date(from.getTime()+days*86400000).toISOString();

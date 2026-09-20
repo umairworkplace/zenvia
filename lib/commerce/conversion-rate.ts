@@ -1,0 +1,1 @@
+export const conversionRate=(orders:number,visitors:number)=>visitors>0?orders/visitors*100:0;

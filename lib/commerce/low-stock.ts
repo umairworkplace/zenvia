@@ -1,0 +1,1 @@
+export const lowStockCount=(items:{stock:number;threshold:number}[])=>items.filter(x=>x.stock<=x.threshold).length;

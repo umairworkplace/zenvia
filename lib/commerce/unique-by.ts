@@ -1,0 +1,1 @@
+export const uniqueBy=<T,K>(items:T[],key:(x:T)=>K)=>Array.from(new Map(items.map(x=>[key(x),x])).values());

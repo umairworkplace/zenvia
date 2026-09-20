@@ -1,0 +1,1 @@
+export const sortByPrice=(items:{price:number}[],desc=false)=>[...items].sort((a,b)=>desc?b.price-a.price:a.price-b.price);

@@ -1,0 +1,1 @@
+export const supplierMargin=(sell:number,cost:number)=>sell>0?(sell-cost)/sell*100:0;

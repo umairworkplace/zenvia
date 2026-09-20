@@ -1,0 +1,1 @@
+export const normalizePhone=(v:string)=>v.replace(/\D/g,'');

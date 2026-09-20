@@ -1,0 +1,1 @@
+export const activeUsers=(users:{active:boolean}[])=>users.filter(u=>u.active).length;

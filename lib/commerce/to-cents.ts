@@ -1,0 +1,1 @@
+export const toCents=(n:number)=>Math.round(n*100);

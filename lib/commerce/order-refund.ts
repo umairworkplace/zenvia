@@ -1,0 +1,1 @@
+export const orderCanRefund=(status:string)=>['paid','processing','shipped','delivered'].includes(status);

@@ -1,0 +1,1 @@
+export const orderSubtotal=(items:{quantity:number;unitPrice:number}[])=>items.reduce((n,x)=>n+x.quantity*x.unitPrice,0);

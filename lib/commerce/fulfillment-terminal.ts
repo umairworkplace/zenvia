@@ -1,0 +1,1 @@
+export const fulfillmentTerminal=(status:string)=>status==='delivered'||status==='failed';

@@ -1,0 +1,1 @@
+export const trackingUrl=(carrier:string,id:string)=>`https://www.google.com/search?q=${encodeURIComponent(`${carrier} ${id}`)}`;

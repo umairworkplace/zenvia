@@ -1,0 +1,1 @@
+export const syncDelta=(local:number,remote:number)=>remote-local;

@@ -1,0 +1,1 @@
+export const sortByRating=(items:{rating:number}[])=>[...items].sort((a,b)=>b.rating-a.rating);

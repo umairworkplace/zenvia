@@ -1,0 +1,1 @@
+export const freeShipping=(subtotal:number,threshold:number)=>subtotal>=threshold;

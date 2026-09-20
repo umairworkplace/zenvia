@@ -1,0 +1,1 @@
+export const orderCanCancel=(status:string)=>['pending','paid','processing'].includes(status);

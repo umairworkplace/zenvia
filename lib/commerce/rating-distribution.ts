@@ -1,0 +1,1 @@
+export const ratingDistribution=(ratings:number[])=>[1,2,3,4,5].map(n=>ratings.filter(r=>r===n).length);

@@ -1,0 +1,1 @@
+export const refundRate=(refunds:number,orders:number)=>orders>0?refunds/orders*100:0;

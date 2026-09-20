@@ -1,0 +1,1 @@
+export const cartUniqueItems=(items:{productId:string}[])=>new Set(items.map(x=>x.productId)).size;

@@ -1,0 +1,1 @@
+export const importErrorRate=(failed:number,total:number)=>total>0?failed/total*100:0;

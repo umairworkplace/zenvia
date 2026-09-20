@@ -1,0 +1,1 @@
+export const parseBool=(v:string|undefined)=>v==='true'||v==='1';

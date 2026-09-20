@@ -1,0 +1,1 @@
+export const supplierOrderKey=(source:string,externalId:string)=>`${source}:${externalId}`;

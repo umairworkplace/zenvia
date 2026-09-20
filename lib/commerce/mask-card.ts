@@ -1,0 +1,1 @@
+export const maskCard=(v:string)=>v.length<4?'****':`****${v.slice(-4)}`;

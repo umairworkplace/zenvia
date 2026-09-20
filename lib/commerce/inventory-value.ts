@@ -1,0 +1,1 @@
+export const inventoryValue=(items:{stock:number;cost:number}[])=>items.reduce((n,x)=>n+Math.max(0,x.stock)*Math.max(0,x.cost),0);

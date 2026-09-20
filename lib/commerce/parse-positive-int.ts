@@ -1,0 +1,1 @@
+export const parsePositiveInt=(v:string|undefined)=>{const n=Number(v);return Number.isInteger(n)&&n>0?n:undefined;};

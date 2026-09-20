@@ -1,0 +1,1 @@
+export const cacheKey=(scope:string,id:string)=>`zenvia:${scope}:${id}`;

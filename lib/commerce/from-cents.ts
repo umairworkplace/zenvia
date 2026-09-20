@@ -1,0 +1,1 @@
+export const fromCents=(n:number)=>n/100;

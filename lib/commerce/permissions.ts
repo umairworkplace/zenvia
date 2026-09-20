@@ -1,0 +1,1 @@
+export const hasPermission=(permissions:string[],needed:string)=>permissions.includes(needed);

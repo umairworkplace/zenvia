@@ -1,0 +1,1 @@
+export const reviewAverage=(ratings:number[])=>average(ratings); function average(v:number[]){return v.length?v.reduce((a,b)=>a+b,0)/v.length:0;}
