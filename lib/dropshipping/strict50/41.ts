@@ -1,0 +1,1 @@
+export const orderHoldMinutes=15;
