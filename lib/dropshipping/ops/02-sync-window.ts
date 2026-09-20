@@ -1,0 +1,1 @@
+export const syncWindow=(minutes=15)=>({minutes});
