@@ -1,0 +1,1 @@
+export const syncKey=(supplier:string,id:string)=>`${supplier}:${id}`;
