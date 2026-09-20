@@ -1,0 +1,1 @@
+export const backoff=(attempt:number,base=500)=>Math.min(base*2**attempt,30000);
