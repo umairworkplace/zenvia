@@ -1,0 +1,1 @@
+export function isStale(updatedAt:string,maxAgeMs:number,now=Date.now()){const t=Date.parse(updatedAt);return !Number.isFinite(t)||now-t>maxAgeMs;}
