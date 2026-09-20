@@ -1,0 +1,1 @@
+export function applyMarkup(cost:number,percent:number){return Math.round((cost*(1+percent/100))*100)/100;}
