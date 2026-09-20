@@ -1,0 +1,1 @@
+export function orderTotal(items:{price:number;quantity:number}[],shipping=0,tax=0){return items.reduce((s,i)=>s+i.price*i.quantity,0)+shipping+tax;}
