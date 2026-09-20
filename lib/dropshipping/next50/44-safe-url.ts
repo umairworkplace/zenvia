@@ -1,0 +1,1 @@
+export const safeUrl=(v:string)=>{try{return new URL(v).toString()}catch{return null}};
