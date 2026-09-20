@@ -1,0 +1,1 @@
+export const currency=(code:string)=>code.toUpperCase();
