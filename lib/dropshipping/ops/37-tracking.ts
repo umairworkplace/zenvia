@@ -1,0 +1,1 @@
+export const tracking=(value:string)=>value.trim();
