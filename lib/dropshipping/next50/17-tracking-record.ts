@@ -1,0 +1,1 @@
+export type TrackingRecord={orderId:string;number?:string;carrier?:string;status:string;updatedAt:string};
