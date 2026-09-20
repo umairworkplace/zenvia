@@ -1,0 +1,1 @@
+export type WebhookEnvelope={eventId:string;eventType:string;signature?:string;receivedAt:string};
