@@ -1,0 +1,1 @@
+export const stock=(n:number)=>Math.max(0,Math.floor(n));
