@@ -1,0 +1,1 @@
+export const cartQuantity=(q:number)=>Math.max(0,Math.floor(q));

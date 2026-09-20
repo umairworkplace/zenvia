@@ -1,0 +1,1 @@
+export const cartSubtotal=(items:{price:number;qty:number}[])=>items.reduce((s,i)=>s+i.price*Math.max(0,i.qty),0);

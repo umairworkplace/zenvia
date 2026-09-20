@@ -1,0 +1,1 @@
+export const checkoutReady=(items:number[],address:string,payment:string)=>items.length>0&&Boolean(address)&&Boolean(payment);

@@ -1,0 +1,1 @@
+export const shippingTotal=(quotes:{price:number}[])=>quotes.length?Math.min(...quotes.map(q=>Math.max(0,q.price))):0;
