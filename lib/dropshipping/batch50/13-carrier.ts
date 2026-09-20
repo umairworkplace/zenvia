@@ -1,0 +1,1 @@
+export const carrierName=(value?:string)=>value?.trim()||"Unknown carrier";
