@@ -1,0 +1,1 @@
+export function batchSize(value:number,max=100){return Math.min(max,Math.max(1,Math.floor(value)));}
