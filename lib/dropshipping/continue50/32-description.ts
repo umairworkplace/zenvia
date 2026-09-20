@@ -1,0 +1,1 @@
+export const cleanDescription=(value:string)=>value.replace(/<script[\s\S]*?<\/script>/gi,'').trim();
