@@ -1,0 +1,1 @@
+export const integrationVersion="dropshipping-v1";
