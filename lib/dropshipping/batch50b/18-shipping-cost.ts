@@ -1,0 +1,1 @@
+export function shippingCost(base:number,quantity:number){return Number(Math.max(0,base)*Math.max(1,quantity).toFixed(2));}
