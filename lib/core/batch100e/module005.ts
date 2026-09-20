@@ -1,0 +1,1 @@
+export const isNonNegative=(x:number)=>x>=0;
