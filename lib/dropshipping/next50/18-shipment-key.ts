@@ -1,0 +1,1 @@
+export const shipmentKey=(supplier:string,id:string)=>`shipment:${supplier}:${id}`;
