@@ -1,0 +1,1 @@
+export const batchSize=(size:number,max=50)=>Math.min(Math.max(1,size),max);
