@@ -1,0 +1,1 @@
+export function canCancel(status:string){return ["pending","paid","processing"].includes(status);}
