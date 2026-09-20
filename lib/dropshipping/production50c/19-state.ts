@@ -1,0 +1,1 @@
+export const normalizeState=(state:string)=>state.trim().toUpperCase();
