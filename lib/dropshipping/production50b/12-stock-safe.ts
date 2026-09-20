@@ -1,0 +1,1 @@
+export const safeStock=(stock:number)=>Number.isFinite(stock)?Math.max(0,Math.floor(stock)):0;
