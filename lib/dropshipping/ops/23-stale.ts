@@ -1,0 +1,1 @@
+export const stale=(date:string,maxAgeMs:number)=>age(date)>maxAgeMs; function age(d:string){return Date.now()-new Date(d).getTime()}
