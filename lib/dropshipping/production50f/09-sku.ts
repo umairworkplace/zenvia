@@ -1,0 +1,1 @@
+export const normalizeSku=(v:string)=>v.trim().toUpperCase().replace(/\s+/g,'-');

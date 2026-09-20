@@ -1,0 +1,1 @@
+export const catalogSource=(source:SupplierSource)=>source;

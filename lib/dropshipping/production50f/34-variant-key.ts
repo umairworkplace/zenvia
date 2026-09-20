@@ -1,0 +1,1 @@
+export const variantKey=(productId:string,variantId:string)=>`${productId}:${variantId}`;

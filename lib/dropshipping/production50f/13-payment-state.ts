@@ -1,0 +1,1 @@
+export type PaymentState='pending'|'authorized'|'paid'|'failed'|'refunded';

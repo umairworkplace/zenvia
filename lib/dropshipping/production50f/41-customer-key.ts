@@ -1,0 +1,1 @@
+export const customerKey=(email:string)=>email.trim().toLowerCase();

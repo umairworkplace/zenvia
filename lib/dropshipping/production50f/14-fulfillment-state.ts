@@ -1,0 +1,1 @@
+export type FulfillmentState='unfulfilled'|'processing'|'fulfilled'|'cancelled';

@@ -1,0 +1,1 @@
+export const orderTotal=(items:number[],shipping=0,tax=0,discount=0)=>Math.max(0,items.reduce((a,b)=>a+b,0)+shipping+tax-discount);

@@ -1,0 +1,1 @@
+export const hasSignature=(value?:string)=>Boolean(value?.trim());

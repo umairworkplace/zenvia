@@ -1,0 +1,1 @@
+export const externalId=(source:string,id:string)=>`${source}:${id}`;

@@ -1,0 +1,1 @@
+export const normalizeCurrency=(v:string)=>v.trim().toUpperCase()||'USD';

@@ -1,0 +1,1 @@
+export const isProductReady=(p:{title?:string;price?:number})=>Boolean(p.title?.trim()&&Number.isFinite(p.price)&&p.price!>=0);

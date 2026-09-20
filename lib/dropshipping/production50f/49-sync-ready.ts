@@ -1,0 +1,1 @@
+export const syncReady=(enabled:boolean,hasCredential:boolean)=>enabled&&hasCredential;

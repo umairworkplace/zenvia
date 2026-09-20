@@ -1,0 +1,1 @@
+export const markupPrice=(cost:number,pct:number)=>Math.round(cost*(1+pct/100)*100)/100;

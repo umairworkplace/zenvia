@@ -1,0 +1,1 @@
+export const percentDiscount=(subtotal:number,pct:number)=>Math.max(0,subtotal*Math.min(100,Math.max(0,pct))/100);

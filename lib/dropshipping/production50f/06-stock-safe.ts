@@ -1,0 +1,1 @@
+export const hasStock=(stock:number,qty:number)=>Number.isInteger(qty)&&qty>0&&stock>=qty;

@@ -1,0 +1,1 @@
+export const syncStale=(updatedAt:number,ttlMs:number,now=Date.now())=>now-updatedAt>ttlMs;

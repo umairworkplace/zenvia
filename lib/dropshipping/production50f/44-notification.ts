@@ -1,0 +1,1 @@
+export type NotificationKind='order_paid'|'order_shipped'|'order_delivered'|'sync_failed';

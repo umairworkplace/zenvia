@@ -1,0 +1,1 @@
+export const validImageUrl=(v:string)=>/^https?:\/\//i.test(v.trim());

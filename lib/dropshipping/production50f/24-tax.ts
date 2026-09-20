@@ -1,0 +1,1 @@
+export const taxAmount=(subtotal:number,rate:number)=>Math.max(0,subtotal*rate/100);

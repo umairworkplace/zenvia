@@ -1,0 +1,1 @@
+export const validUsState=(v:string)=>/^[A-Z]{2}$/.test(v.trim().toUpperCase());

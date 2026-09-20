@@ -1,0 +1,1 @@
+export const fulfillmentReady=(paid:boolean,stock:number,qty:number,addressOk:boolean)=>paid&&stock>=qty&&addressOk;

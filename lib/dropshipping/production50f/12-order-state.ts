@@ -1,0 +1,1 @@
+export type OrderState='pending'|'paid'|'fulfilling'|'shipped'|'delivered'|'cancelled'|'refunded';

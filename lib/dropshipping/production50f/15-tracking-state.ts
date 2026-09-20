@@ -1,0 +1,1 @@
+export type TrackingState='unavailable'|'label_created'|'in_transit'|'delivered';

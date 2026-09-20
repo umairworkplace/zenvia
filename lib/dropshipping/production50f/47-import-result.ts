@@ -1,0 +1,1 @@
+export const emptyImportResult=():SyncResult=>({imported:0,updated:0,skipped:0,failed:0});

@@ -1,0 +1,1 @@
+export const batchSummary={batch:'production50f',files:50};

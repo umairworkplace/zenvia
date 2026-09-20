@@ -1,0 +1,1 @@
+export const validAddress=(a:{line1?:string;city?:string;state?:string;zip?:string})=>Boolean(a.line1?.trim()&&a.city?.trim()&&a.state?.trim()&&a.zip?.trim());

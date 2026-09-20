@@ -1,0 +1,1 @@
+export const validUsZip=(v:string)=>/^\d{5}(?:-\d{4})?$/.test(v.trim());

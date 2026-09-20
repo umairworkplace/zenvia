@@ -1,0 +1,1 @@
+export const cleanDescription=(v:string)=>v.replace(/\s+/g,' ').trim();

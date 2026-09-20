@@ -1,0 +1,1 @@
+export const grossMargin=(sale:number,cost:number)=>sale<=0?0:(sale-cost)/sale;

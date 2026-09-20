@@ -1,0 +1,1 @@
+export const cleanTitle=(v:string)=>v.replace(/\s+/g,' ').trim().slice(0,180);
