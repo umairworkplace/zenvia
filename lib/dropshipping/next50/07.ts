@@ -1,0 +1,1 @@
+export const notificationMode="customer" as const;
