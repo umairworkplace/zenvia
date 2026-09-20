@@ -1,0 +1,1 @@
+export function safeError(error:unknown){return error instanceof Error?error.message:"Unexpected dropshipping error";}
