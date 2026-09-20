@@ -1,0 +1,1 @@
+export type VariantSource={externalVariantId:string;sku:string;stock:number;cost:number};
