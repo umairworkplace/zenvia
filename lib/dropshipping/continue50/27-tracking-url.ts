@@ -1,0 +1,1 @@
+export function trackingUrl(carrier:string,number:string){return `https://www.google.com/search?q=${encodeURIComponent(`${carrier} ${number}`)}`;}
