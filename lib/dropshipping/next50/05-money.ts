@@ -1,0 +1,1 @@
+export const cents=(amount:number)=>Math.round(amount*100); export const dollars=(c:number)=>c/100;
