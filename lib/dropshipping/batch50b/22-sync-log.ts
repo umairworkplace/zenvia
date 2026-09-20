@@ -1,0 +1,1 @@
+export type SyncLog={level:"info"|"warn"|"error";message:string;createdAt:string};
