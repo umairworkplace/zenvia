@@ -1,0 +1,1 @@
+export const ORDER_TIMEOUT_MINUTES=20;
