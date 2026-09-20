@@ -1,0 +1,1 @@
+export type PriceRule={markup:number;shipping:number;roundTo:number}; export const applyPrice=(cost:number,r:PriceRule)=>Math.ceil((cost*(1+r.markup/100)+r.shipping)/r.roundTo)*r.roundTo;
