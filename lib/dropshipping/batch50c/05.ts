@@ -1,0 +1,1 @@
+export const TRACKING_SYNC_INTERVAL=30*60;
