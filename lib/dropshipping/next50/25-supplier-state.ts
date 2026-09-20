@@ -1,0 +1,1 @@
+export const SUPPLIER_STATES=["connected","disconnected","degraded","error"] as const;
