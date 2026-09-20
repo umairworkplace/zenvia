@@ -1,0 +1,1 @@
+export function safeStock(available:number,buffer=0){return Math.max(0,Math.floor(available-buffer));}
