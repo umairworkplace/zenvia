@@ -1,0 +1,1 @@
+export type BatchSummary={processed:number;succeeded:number;failed:number};
