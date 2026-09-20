@@ -1,0 +1,1 @@
+export const EVENT_FULFILLMENT_FAILED="fulfillment.failed";
