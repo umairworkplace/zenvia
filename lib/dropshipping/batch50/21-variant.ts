@@ -1,0 +1,1 @@
+export type Variant={id:string;sku:string;price:number;stock:number};
