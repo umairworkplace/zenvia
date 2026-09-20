@@ -1,0 +1,1 @@
+export type StockState='in-stock'|'low-stock'|'out-of-stock'; export const stockState=(stock:number,threshold=5):StockState=>stock<=0?'out-of-stock':stock<=threshold?'low-stock':'in-stock';

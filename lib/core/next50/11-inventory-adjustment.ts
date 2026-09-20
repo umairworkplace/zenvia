@@ -1,0 +1,1 @@
+export type SupplierOrderState='pending'|'submitted'|'confirmed'|'shipped'|'failed'; export const supplierOrderActive=(x:SupplierOrderState)=>!['shipped','failed'].includes(x);

@@ -1,0 +1,1 @@
+export type Phone={value:string}; export const normalizePhone=(x:Phone)=>x.value.replace(/\D/g,'');

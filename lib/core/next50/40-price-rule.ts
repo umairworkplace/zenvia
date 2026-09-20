@@ -1,0 +1,1 @@
+export type Bundle={items:string[];discountPercent:number}; export const bundleDiscount=(x:Bundle,total:number)=>Math.max(0,total)*Math.max(0,x.discountPercent)/100;

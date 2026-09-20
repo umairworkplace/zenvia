@@ -1,0 +1,1 @@
+export type AbandonedCart={id:string;updatedAt:string;subtotal:number}; export const recoverable=(x:AbandonedCart,days=1,now=Date.now())=>now-new Date(x.updatedAt).getTime()>=days*86400000&&x.subtotal>0;

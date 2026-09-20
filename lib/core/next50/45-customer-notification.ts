@@ -1,0 +1,1 @@
+export type MaintenanceWindow={startsAt:string;endsAt:string}; export const maintenanceActive=(x:MaintenanceWindow,now=Date.now())=>new Date(x.startsAt).getTime()<=now&&now<=new Date(x.endsAt).getTime();

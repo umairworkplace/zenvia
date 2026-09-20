@@ -1,0 +1,1 @@
+export type SlugSource={title:string}; export const slugify=(x:SlugSource)=>x.title.toLowerCase().trim().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');

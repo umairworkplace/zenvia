@@ -1,0 +1,1 @@
+export type MaintenanceWindow={enabled:boolean;message:string}; export const maintenanceMessage=(x:MaintenanceWindow)=>x.enabled?x.message:'';

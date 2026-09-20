@@ -1,0 +1,1 @@
+export type JobState='queued'|'running'|'success'|'failed'; export const jobDone=(x:JobState)=>x==='success'||x==='failed';

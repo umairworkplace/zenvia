@@ -1,0 +1,1 @@
+export type Money={cents:number;currency:'USD'}; export const money=(cents:number):Money=>({cents:Math.round(cents),currency:'USD'});

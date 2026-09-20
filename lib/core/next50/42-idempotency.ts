@@ -1,0 +1,1 @@
+export type FlashDeal={startsAt:string;endsAt:string;discountPercent:number}; export const activeDeal=(x:FlashDeal,now=Date.now())=>new Date(x.startsAt).getTime()<=now&&now<=new Date(x.endsAt).getTime();

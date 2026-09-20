@@ -1,0 +1,1 @@
+export type FeatureFlag={name:string;enabled:boolean}; export const enabled=(x:FeatureFlag)=>x.enabled;

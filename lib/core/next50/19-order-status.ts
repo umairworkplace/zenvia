@@ -1,0 +1,1 @@
+export type CouponInput={subtotal:number;percent?:number;fixed?:number}; export const discount=(x:CouponInput)=>Math.min(Math.max(0,x.subtotal),Math.max(0,x.fixed||x.subtotal*(x.percent||0)/100));

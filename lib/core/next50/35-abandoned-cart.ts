@@ -1,0 +1,1 @@
+export type SupportTicket={id:string;status:'open'|'pending'|'closed';priority:'low'|'normal'|'high'}; export const ticketOpen=(x:SupportTicket)=>x.status!=='closed';

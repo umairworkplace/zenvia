@@ -1,0 +1,1 @@
+export type IdempotencyRecord={key:string;createdAt:string;resultHash:string}; export const idempotencyKey=(x:IdempotencyRecord)=>x.key.trim();

@@ -1,0 +1,1 @@
+export type AdminRole='admin'|'manager'|'support'|'viewer'; export const canEditCatalog=(r:AdminRole)=>r==='admin'||r==='manager';

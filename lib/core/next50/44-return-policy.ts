@@ -1,0 +1,1 @@
+export type StoreSetting={key:string;value:string}; export const settingValue=(x:StoreSetting[],key:string)=>x.find(v=>v.key===key)?.value;

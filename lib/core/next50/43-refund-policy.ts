@@ -1,0 +1,1 @@
+export type Commission={gross:number;rate:number}; export const commission=(x:Commission)=>Math.max(0,x.gross)*Math.max(0,x.rate)/100;

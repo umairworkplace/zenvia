@@ -1,0 +1,1 @@
+export type SyncCursor={source:string;cursor?:string;updatedAt:string}; export const cursorKey=(x:SyncCursor)=>`${x.source}:${x.cursor||'start'}`;

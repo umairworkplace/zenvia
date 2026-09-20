@@ -1,0 +1,1 @@
+export type Referral={code:string;uses:number}; export const referralKey=(x:Referral)=>x.code.trim().toUpperCase();

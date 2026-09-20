@@ -1,0 +1,1 @@
+export type WebhookEvent={id:string;type:string;payloadHash:string}; export const webhookDedupKey=(x:WebhookEvent)=>`${x.type}:${x.id}:${x.payloadHash}`;

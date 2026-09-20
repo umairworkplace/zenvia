@@ -1,0 +1,1 @@
+export type ReturnWindow={deliveredAt:string;days:number}; export const returnEligible=(x:ReturnWindow,now=Date.now())=>now-new Date(x.deliveredAt).getTime()<=x.days*86400000;

@@ -1,0 +1,1 @@
+export type ProductBadge='new'|'sale'|'bestseller'|'low-stock'; export const badgeText=(x:ProductBadge)=>x.replace('-', ' ');

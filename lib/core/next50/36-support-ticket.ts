@@ -1,0 +1,1 @@
+export type FAQ={question:string;answer:string;active:boolean}; export const activeFaqs=(x:FAQ[])=>x.filter(v=>v.active);

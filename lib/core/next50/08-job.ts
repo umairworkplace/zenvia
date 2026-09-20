@@ -1,0 +1,1 @@
+export type ShippingStatus='label-created'|'in-transit'|'out-for-delivery'|'delivered'; export const shippingComplete=(x:ShippingStatus)=>x==='delivered';

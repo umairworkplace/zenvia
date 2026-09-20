@@ -1,0 +1,1 @@
+export type GiftCard={balance:number}; export const redeem=(x:GiftCard,amount:number)=>({balance:Math.max(0,x.balance-Math.max(0,amount))});

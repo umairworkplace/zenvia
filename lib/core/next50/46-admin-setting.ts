@@ -1,0 +1,1 @@
+export type AdminSetting={key:string;value:string}; export const settingValue=(items:AdminSetting[],key:string)=>items.find(x=>x.key===key)?.value;

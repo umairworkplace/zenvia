@@ -1,0 +1,1 @@
+export type CartState={items:number;subtotal:number}; export const cartEmpty=(x:CartState)=>x.items===0||x.subtotal<=0;

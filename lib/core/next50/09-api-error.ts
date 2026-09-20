@@ -1,0 +1,1 @@
+export type TrackingNumber={carrier:string;number:string}; export const trackingLink=(x:TrackingNumber)=>`https://www.google.com/search?q=${encodeURIComponent(x.carrier+' '+x.number)}`;

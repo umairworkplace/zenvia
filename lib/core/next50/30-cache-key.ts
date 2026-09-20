@@ -1,0 +1,1 @@
+export type RefundState='requested'|'approved'|'processed'|'failed'; export const refundComplete=(x:RefundState)=>x==='processed';

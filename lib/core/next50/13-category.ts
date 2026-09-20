@@ -1,0 +1,1 @@
+export type ImportStats={created:number;updated:number;skipped:number;failed:number}; export const imported=(x:ImportStats)=>x.created+x.updated;

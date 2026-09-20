@@ -1,0 +1,1 @@
+export type HealthCheck={name:string;ok:boolean;latencyMs:number}; export const allHealthy=(x:HealthCheck[])=>x.length>0&&x.every(h=>h.ok);

@@ -1,0 +1,1 @@
+export type AnalyticsEvent={name:string;userId?:string;at:string}; export const eventName=(x:AnalyticsEvent)=>x.name.trim().toLowerCase();

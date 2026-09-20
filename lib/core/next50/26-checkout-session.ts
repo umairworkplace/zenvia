@@ -1,0 +1,1 @@
+export type CacheEntry<T>={value:T;expiresAt:number}; export const cacheFresh=(x:CacheEntry<unknown>,now=Date.now())=>x.expiresAt>now;

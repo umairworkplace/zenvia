@@ -1,0 +1,1 @@
+export type HealthCheck={name:string;ok:boolean;latencyMs:number}; export const healthy=(x:HealthCheck)=>x.ok&&x.latencyMs<3000;

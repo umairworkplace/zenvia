@@ -1,0 +1,1 @@
+export type Funnel={views:number;cartAdds:number;purchases:number}; export const cartRate=(x:Funnel)=>x.views?x.cartAdds/x.views:0;

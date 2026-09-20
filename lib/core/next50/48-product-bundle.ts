@@ -1,0 +1,1 @@
+export type ProductBundle={id:string;items:string[]}; export const bundleSize=(x:ProductBundle)=>x.items.length;

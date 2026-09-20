@@ -1,0 +1,1 @@
+export type ProductVisibility='public'|'private'; export const visible=(x:ProductVisibility)=>x==='public';

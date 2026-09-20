@@ -1,0 +1,1 @@
+export type ShippingAddress={state:string;zip:string;country:string}; export const validShippingAddress=(x:ShippingAddress)=>x.country==='US'&&/^[0-9]{5}(-[0-9]{4})?$/.test(x.zip)&&x.state.length===2;

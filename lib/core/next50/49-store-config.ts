@@ -1,0 +1,1 @@
+export type StoreConfig={name:string;currency:string;country:string;timezone:string}; export const configReady=(x:StoreConfig)=>Boolean(x.name&&x.currency&&x.country&&x.timezone);

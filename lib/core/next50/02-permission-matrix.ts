@@ -1,0 +1,1 @@
+export type PriceRange={min:number;max:number}; export const inRange=(price:number,r:PriceRange)=>price>=r.min&&price<=r.max;

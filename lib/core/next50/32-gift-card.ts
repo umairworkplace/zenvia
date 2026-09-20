@@ -1,0 +1,1 @@
+export type LoyaltyAccount={points:number}; export const addPoints=(x:LoyaltyAccount,n:number)=>({points:Math.max(0,x.points)+Math.max(0,n)});

@@ -1,0 +1,1 @@
+export type EmailAddress={email:string}; export const validEmail=(x:EmailAddress)=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(x.email.trim());

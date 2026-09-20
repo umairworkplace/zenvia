@@ -1,0 +1,1 @@
+export type TaxInput={subtotal:number;rate:number}; export const tax=(x:TaxInput)=>Math.max(0,x.subtotal)*Math.max(0,x.rate)/100;

@@ -1,0 +1,1 @@
+export type SeoMeta={title:string;description:string;canonical:string}; export const seoTitle=(x:SeoMeta)=>x.title.slice(0,60);

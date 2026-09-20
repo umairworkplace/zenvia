@@ -1,0 +1,1 @@
+export type NotificationKind='order'|'shipment'|'refund'|'system'; export const notificationPriority=(x:NotificationKind)=>x==='shipment'||x==='refund'?2:1;

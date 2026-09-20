@@ -1,0 +1,1 @@
+export type SupplierProduct={externalId:string;sku:string;cost:number;stock:number}; export const supplierProductValid=(x:SupplierProduct)=>!!x.externalId&&!!x.sku&&x.cost>=0&&x.stock>=0;

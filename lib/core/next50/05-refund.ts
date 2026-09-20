@@ -1,0 +1,1 @@
+export type CheckoutStep='cart'|'shipping'|'payment'|'review'|'complete'; export const nextCheckout=(s:CheckoutStep):CheckoutStep=>s==='cart'?'shipping':s==='shipping'?'payment':s==='payment'?'review':'complete';
