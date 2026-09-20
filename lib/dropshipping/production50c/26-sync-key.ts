@@ -1,0 +1,1 @@
+export const syncKey=(supplier:string,sku:string)=>`${supplier}:${sku}`.toLowerCase();
