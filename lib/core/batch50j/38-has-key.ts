@@ -1,0 +1,1 @@
+export const hasKey=(o:Record<string,unknown>,key:string)=>Object.prototype.hasOwnProperty.call(o,key);

@@ -1,0 +1,1 @@
+export const pageOffset=(page:number,limit:number)=>Math.max(0,page-1)*Math.max(1,limit);

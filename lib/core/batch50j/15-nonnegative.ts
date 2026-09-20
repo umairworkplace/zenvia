@@ -1,0 +1,1 @@
+export const nonNegative=(v:number)=>Math.max(0,Number.isFinite(v)?v:0);

@@ -1,0 +1,1 @@
+export const compact=(v:string)=>v.trim().replace(/\s+/g,' ');

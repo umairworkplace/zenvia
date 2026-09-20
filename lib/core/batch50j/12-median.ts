@@ -1,0 +1,1 @@
+export const median=(xs:number[])=>{const a=[...xs].sort((x,y)=>x-y);if(!a.length)return 0;const m=Math.floor(a.length/2);return a.length%2?a[m]:(a[m-1]+a[m])/2};

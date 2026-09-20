@@ -1,0 +1,1 @@
+export const safeQuantity=(v:number)=>Math.max(0,Math.floor(v));

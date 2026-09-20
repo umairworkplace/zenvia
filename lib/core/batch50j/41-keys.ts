@@ -1,0 +1,1 @@
+export const keys=(o:Record<string,unknown>)=>Object.keys(o);

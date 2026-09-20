@@ -1,0 +1,1 @@
+export const entries=(o:Record<string,unknown>)=>Object.entries(o);

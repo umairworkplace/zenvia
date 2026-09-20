@@ -1,0 +1,1 @@
+export const toRecord=(pairs:[string,unknown][])=>Object.fromEntries(pairs);

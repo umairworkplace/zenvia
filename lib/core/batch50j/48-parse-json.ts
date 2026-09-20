@@ -1,0 +1,1 @@
+export const parseJson=<T>(v:string):T|undefined=>{try{return JSON.parse(v) as T}catch{return undefined}};

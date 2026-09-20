@@ -1,0 +1,1 @@
+export const empty=(v:string)=>v.trim().length===0;

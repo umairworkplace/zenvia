@@ -1,0 +1,1 @@
+export const merge=(a:Record<string,unknown>,b:Record<string,unknown>)=>({...a,...b});

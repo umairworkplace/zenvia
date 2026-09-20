@@ -1,0 +1,1 @@
+export const reverse=<T>(xs:T[])=>[...xs].reverse();

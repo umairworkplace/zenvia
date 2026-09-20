@@ -1,0 +1,1 @@
+export const sameDay=(a:string,b:string)=>a.slice(0,10)===b.slice(0,10);

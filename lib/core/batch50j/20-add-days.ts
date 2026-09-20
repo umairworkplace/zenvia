@@ -1,0 +1,1 @@
+export const addDays=(iso:string,days:number)=>{const d=new Date(iso);d.setUTCDate(d.getUTCDate()+days);return d.toISOString()};

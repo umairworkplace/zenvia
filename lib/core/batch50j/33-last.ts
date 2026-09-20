@@ -1,0 +1,1 @@
+export const last=<T>(xs:T[])=>xs[xs.length-1];

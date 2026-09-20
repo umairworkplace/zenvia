@@ -1,0 +1,1 @@
+export const sortNumbers=(xs:number[],desc=false)=>[...xs].sort((a,b)=>desc?b-a:a-b);

@@ -1,0 +1,1 @@
+export const chunk=<T>(xs:T[],size:number)=>{const n=Math.max(1,size),out:T[][]=[];for(let i=0;i<xs.length;i+=n)out.push(xs.slice(i,i+n));return out};

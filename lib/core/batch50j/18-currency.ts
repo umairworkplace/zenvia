@@ -1,0 +1,1 @@
+export const isValidCurrency=(v:string)=>['USD'].includes(v.toUpperCase());

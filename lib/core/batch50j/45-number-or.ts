@@ -1,0 +1,1 @@
+export const numberOr=(v:unknown,fallback:number)=>typeof v==='number'&&Number.isFinite(v)?v:fallback;

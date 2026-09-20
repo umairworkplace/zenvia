@@ -1,0 +1,1 @@
+export const stringOr=(v:unknown,fallback='')=>typeof v==='string'?v:fallback;

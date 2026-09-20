@@ -1,0 +1,1 @@
+export const startsWith=(v:string,p:string)=>v.startsWith(p);

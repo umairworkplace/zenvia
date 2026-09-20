@@ -1,0 +1,1 @@
+export const roundMoney=(v:number)=>Math.round(v*100)/100;

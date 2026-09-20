@@ -1,0 +1,1 @@
+export const isPositive=(v:number)=>Number.isFinite(v)&&v>0;

@@ -1,0 +1,1 @@
+export const jsonSafe=(v:unknown)=>JSON.stringify(v);

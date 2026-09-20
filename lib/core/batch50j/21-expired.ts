@@ -1,0 +1,1 @@
+export const isExpired=(iso:string,now=Date.now())=>new Date(iso).getTime()<=now;

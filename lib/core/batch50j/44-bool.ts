@@ -1,0 +1,1 @@
+export const bool=(v:unknown)=>Boolean(v);

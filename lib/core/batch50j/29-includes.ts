@@ -1,0 +1,1 @@
+export const includes=(v:string,q:string)=>v.toLowerCase().includes(q.toLowerCase());

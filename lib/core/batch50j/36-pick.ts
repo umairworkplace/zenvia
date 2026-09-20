@@ -1,0 +1,1 @@
+export const pick=(o:Record<string,unknown>,keys:string[])=>Object.fromEntries(keys.filter(k=>k in o).map(k=>[k,o[k]]));
