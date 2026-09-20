@@ -1,0 +1,1 @@
+export const SUPPLIER_EVENTS=["product.updated","inventory.updated","order.updated","tracking.updated"] as const;
