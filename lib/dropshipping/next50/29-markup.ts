@@ -1,0 +1,1 @@
+export function markupPrice(cost:number,percent:number){return Math.max(0,cost*(1+percent/100));}
