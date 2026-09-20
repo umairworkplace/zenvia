@@ -1,0 +1,1 @@
+export type SupplierConfig={name:string;enabled:boolean;baseUrl:string};
