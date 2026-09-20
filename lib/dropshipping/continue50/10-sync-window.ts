@@ -1,0 +1,1 @@
+export function syncWindow(minutes:number){return {start:new Date(Date.now()-minutes*60000),end:new Date()};}
