@@ -1,0 +1,1 @@
+export const normalizeProductId=(id:string)=>id.trim();
