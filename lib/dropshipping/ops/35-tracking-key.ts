@@ -1,0 +1,1 @@
+export const trackingKey=(order:string,tracking:string)=>`${order}:${tracking}`;
