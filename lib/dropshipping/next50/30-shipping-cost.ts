@@ -1,0 +1,1 @@
+export function totalShippingCost(items:number[],fee=0){return items.reduce((a,b)=>a+Math.max(0,b),fee);}
