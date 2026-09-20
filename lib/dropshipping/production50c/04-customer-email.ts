@@ -1,0 +1,1 @@
+export const isValidCustomerEmail=(email:string)=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
