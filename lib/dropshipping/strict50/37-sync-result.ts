@@ -1,0 +1,1 @@
+export const syncResult=(updated:number,skipped:number,failed:number)=>({updated,skipped,failed});
