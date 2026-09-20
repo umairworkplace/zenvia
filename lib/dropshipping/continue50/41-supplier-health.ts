@@ -1,0 +1,1 @@
+export const supplierHealth=(failures:number)=>failures===0?'healthy':failures<3?'degraded':'offline';
