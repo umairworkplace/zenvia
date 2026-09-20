@@ -1,0 +1,1 @@
+export const queueLimit=(requested:number,max=100)=>Math.min(Math.max(0,requested),max);
