@@ -1,0 +1,1 @@
+export const TRACKING_STATES=['unknown','label-created','in-transit','out-for-delivery','delivered','exception'] as const;
