@@ -1,0 +1,1 @@
+export type SupplierMap=Record<string,{externalId:string;variantId?:string}>;
