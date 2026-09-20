@@ -1,0 +1,1 @@
+export const pricingPolicy={currency:"USD",minimumMarginPercent:20};
