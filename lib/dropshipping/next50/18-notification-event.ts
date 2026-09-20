@@ -1,0 +1,1 @@
+export type NotificationEvent={userId:string;orderId:string;type:string;message:string};
