@@ -1,0 +1,1 @@
+export const page=(size:number,cursor=0)=>({size:Math.min(100,Math.max(1,size)),cursor:Math.max(0,cursor)});
