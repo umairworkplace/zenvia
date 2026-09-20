@@ -1,0 +1,1 @@
+export type CustomerNote={customerId:string;note:string;createdAt:string}; export const cleanNote=(x:CustomerNote)=>x.note.trim();

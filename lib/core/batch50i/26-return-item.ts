@@ -1,0 +1,1 @@
+export type ReturnItem={orderId:string;sku:string;qty:number}; export const validReturn=(x:ReturnItem)=>x.qty>0&&Boolean(x.sku);

@@ -1,0 +1,1 @@
+export type Audit={actor:string;action:string;entity:string;entityId:string;at:string}; export const auditRef=(x:Audit)=>`${x.entity}:${x.entityId}`;

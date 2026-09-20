@@ -1,0 +1,1 @@
+export type GiftCard={code:string;balance:number;active:boolean}; export const giftCardUsable=(x:GiftCard)=>x.active&&x.balance>0;

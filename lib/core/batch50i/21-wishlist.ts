@@ -1,0 +1,1 @@
+export type Wishlist={userId:string;productIds:string[]}; export const wishlistHas=(x:Wishlist,id:string)=>x.productIds.includes(id);

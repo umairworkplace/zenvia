@@ -1,0 +1,1 @@
+export type WebhookEvent={id:string;source:string;event:string;processed:boolean}; export const webhookProcessed=(x:WebhookEvent)=>x.processed;

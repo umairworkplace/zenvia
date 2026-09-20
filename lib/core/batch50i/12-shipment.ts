@@ -1,0 +1,1 @@
+export type Shipment={id:string;orderId:string;status:'pending'|'shipped'|'delivered';tracking?:string}; export const shipmentDelivered=(x:Shipment)=>x.status==='delivered';

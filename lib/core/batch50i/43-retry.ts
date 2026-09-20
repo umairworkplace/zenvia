@@ -1,0 +1,1 @@
+export type Retry={attempt:number,max:number}; export const canRetry=(x:Retry)=>x.attempt<x.max;

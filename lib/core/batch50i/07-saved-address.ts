@@ -1,0 +1,1 @@
+export type SavedAddress={id:string;label:string;zip:string;country:string}; export const isUSZip=(x:SavedAddress)=>x.country==='US'&&/^\d{5}(-\d{4})?$/.test(x.zip);

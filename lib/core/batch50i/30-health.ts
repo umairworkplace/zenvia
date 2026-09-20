@@ -1,0 +1,1 @@
+export type Health={database:boolean;payments:boolean;suppliers:boolean}; export const systemHealthy=(x:Health)=>x.database&&x.payments&&x.suppliers;

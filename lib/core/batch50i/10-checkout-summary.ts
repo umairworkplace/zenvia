@@ -1,0 +1,1 @@
+export type CheckoutSummary={subtotal:number;shipping:number;tax:number;discount:number}; export const checkoutTotal=(x:CheckoutSummary)=>Math.max(0,x.subtotal-x.discount)+x.shipping+x.tax;

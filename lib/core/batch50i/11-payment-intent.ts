@@ -1,0 +1,1 @@
+export type PaymentIntent={id:string;amount:number;status:'requires_payment'|'succeeded'|'failed'}; export const paymentDone=(x:PaymentIntent)=>x.status==='succeeded';

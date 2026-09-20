@@ -1,0 +1,1 @@
+export type CustomerProfile={id:string;email:string;name:string}; export const profileName=(x:CustomerProfile)=>x.name.trim();

@@ -1,0 +1,1 @@
+export type SalesFunnel={views:number;adds:number;checkouts:number;purchases:number}; export const conversion=(x:SalesFunnel)=>x.views?x.purchases/x.views*100:0;

@@ -1,0 +1,1 @@
+export type SortOption='price_asc'|'price_desc'|'newest'|'popular'; export const validSort=(x:string):x is SortOption=>['price_asc','price_desc','newest','popular'].includes(x);

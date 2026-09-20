@@ -1,0 +1,1 @@
+export type NotificationPreference={email:boolean;sms:boolean;orderUpdates:boolean}; export const orderNotifications=(x:NotificationPreference)=>x.email||x.sms;

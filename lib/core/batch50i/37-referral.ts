@@ -1,0 +1,1 @@
+export type Referral={code:string;referrerId:string;uses:number;maxUses:number}; export const referralAvailable=(x:Referral)=>x.uses<x.maxUses;

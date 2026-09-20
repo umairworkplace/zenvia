@@ -1,0 +1,1 @@
+export type ImageAsset={url:string;alt:string;sort:number}; export const primaryImage=(x:ImageAsset[])=>[...x].sort((a,b)=>a.sort-b.sort)[0];

@@ -1,0 +1,1 @@
+export type ReviewSummary={count:number;average:number}; export const reviewSummary=(ratings:number[]):ReviewSummary=>({count:ratings.length,average:ratings.length?ratings.reduce((a,b)=>a+b,0)/ratings.length:0});

@@ -1,0 +1,1 @@
+export type SupplierOrder={source:string;externalId:string;status:'pending'|'submitted'|'fulfilled'|'failed'}; export const supplierOrderDone=(x:SupplierOrder)=>x.status==='fulfilled';

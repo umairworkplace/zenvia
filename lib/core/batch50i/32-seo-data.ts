@@ -1,0 +1,1 @@
+export type SEOData={title:string;description:string;canonical:string}; export const seoValid=(x:SEOData)=>x.title.length<=70&&x.description.length<=160&&x.canonical.startsWith('https://');

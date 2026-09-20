@@ -1,0 +1,1 @@
+export type CartState={items:{sku:string;qty:number}[]}; export const cartCount=(x:CartState)=>x.items.reduce((n,i)=>n+Math.max(0,i.qty),0);

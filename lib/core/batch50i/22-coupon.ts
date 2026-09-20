@@ -1,0 +1,1 @@
+export type Coupon={code:string;percent?:number;fixed?:number;minSubtotal?:number}; export const discountFor=(subtotal:number,c:Coupon)=>subtotal<(c.minSubtotal??0)?0:Math.min(subtotal,c.fixed??subtotal*(c.percent??0)/100);

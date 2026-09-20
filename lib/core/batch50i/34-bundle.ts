@@ -1,0 +1,1 @@
+export type BundleItem={sku:string;qty:number}; export type Bundle={id:string;items:BundleItem[];price:number}; export const bundleSize=(x:Bundle)=>x.items.length;

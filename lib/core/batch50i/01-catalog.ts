@@ -1,0 +1,1 @@
+export type CatalogItem={id:string;title:string;price:number;active:boolean}; export const visibleCatalog=(x:CatalogItem[])=>x.filter(p=>p.active);

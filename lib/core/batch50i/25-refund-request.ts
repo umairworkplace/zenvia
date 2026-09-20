@@ -1,0 +1,1 @@
+export type RefundRequest={orderId:string;amount:number;reason:string}; export const validRefund=(x:RefundRequest)=>x.amount>0&&x.reason.trim().length>0;

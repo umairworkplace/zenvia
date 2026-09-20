@@ -1,0 +1,1 @@
+export type AbandonedCart={id:string;customerId:string;items:number;createdAt:string;recovered:boolean}; export const recoverable=(x:AbandonedCart)=>x.items>0&&!x.recovered;

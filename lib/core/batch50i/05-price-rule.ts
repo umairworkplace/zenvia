@@ -1,0 +1,1 @@
+export type PriceRule={markup:number;minimum?:number}; export const sellPrice=(cost:number,r:PriceRule)=>Math.max(r.minimum??0,cost*(1+r.markup/100));

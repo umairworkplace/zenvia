@@ -1,0 +1,1 @@
+export type OrderMetric={orders:number;revenue:number;refunds:number}; export const netRevenue=(x:OrderMetric)=>x.revenue-x.refunds;

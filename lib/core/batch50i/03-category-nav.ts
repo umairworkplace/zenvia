@@ -1,0 +1,1 @@
+export type CategoryNav={id:string;name:string;slug:string;parentId?:string}; export const categoryPath=(x:CategoryNav)=>`/category/${x.slug}`;

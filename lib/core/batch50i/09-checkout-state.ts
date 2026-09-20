@@ -1,0 +1,1 @@
+export type CheckoutState='cart'|'address'|'shipping'|'payment'|'review'|'complete'; export const nextCheckout=(s:CheckoutState)=>({cart:'address',address:'shipping',shipping:'payment',payment:'review',review:'complete',complete:'complete'} as Record<CheckoutState,CheckoutState>)[s];

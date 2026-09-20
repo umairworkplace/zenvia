@@ -1,0 +1,1 @@
+export type TaxRate={rate:number}; export const tax=(amount:number,r:TaxRate)=>Math.max(0,amount)*Math.max(0,r.rate)/100;

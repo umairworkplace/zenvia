@@ -1,0 +1,1 @@
+export type RateWindow={count:number;limit:number}; export const rateAllowed=(x:RateWindow)=>x.count<x.limit;

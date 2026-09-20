@@ -1,0 +1,1 @@
+export type OrderItem={sku:string;qty:number;price:number}; export const orderSubtotal=(x:OrderItem[])=>x.reduce((n,i)=>n+Math.max(0,i.qty)*Math.max(0,i.price),0);

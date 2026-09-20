@@ -1,0 +1,1 @@
+export type Maintenance={enabled:boolean;message?:string}; export const storefrontOpen=(x:Maintenance)=>!x.enabled;

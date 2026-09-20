@@ -1,0 +1,1 @@
+export type Idempotency={key:string;completed:boolean}; export const reusable=(x:Idempotency)=>!x.completed;

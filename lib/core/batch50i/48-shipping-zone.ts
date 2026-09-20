@@ -1,0 +1,1 @@
+export type ShippingZone={states:string[];price:number}; export const zoneMatches=(x:ShippingZone,state:string)=>x.states.includes(state);

@@ -1,0 +1,1 @@
+export type Loyalty={points:number;tier:'standard'|'plus'|'vip'}; export const loyaltyValue=(x:Loyalty)=>Math.max(0,x.points)*0.01;

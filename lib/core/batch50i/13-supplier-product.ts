@@ -1,0 +1,1 @@
+export type SupplierProduct={source:'cj'|'aliexpress'|'amazon';externalId:string;sku:string}; export const supplierKey=(x:SupplierProduct)=>`${x.source}:${x.externalId}:${x.sku}`;

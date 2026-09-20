@@ -1,0 +1,1 @@
+export type AdminPermission='products:write'|'orders:write'|'customers:read'|'settings:write'; export const hasPermission=(x:AdminPermission[],p:AdminPermission)=>x.includes(p);

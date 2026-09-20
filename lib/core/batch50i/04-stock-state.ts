@@ -1,0 +1,1 @@
+export type ProductStock={sku:string;stock:number;threshold:number}; export const stockState=(x:ProductStock)=>x.stock<=0?'out_of_stock':x.stock<=x.threshold?'low_stock':'in_stock';

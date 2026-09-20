@@ -1,0 +1,1 @@
+export type Variant={id:string;sku:string;options:Record<string,string>}; export const variantKey=(x:Variant)=>`${x.id}:${x.sku}`;

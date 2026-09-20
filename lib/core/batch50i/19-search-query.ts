@@ -1,0 +1,1 @@
+export type SearchQuery={q:string;page:number;limit:number}; export const normalizeQuery=(x:SearchQuery)=>({...x,q:x.q.trim().toLowerCase(),page:Math.max(1,x.page),limit:Math.min(100,Math.max(1,x.limit))});

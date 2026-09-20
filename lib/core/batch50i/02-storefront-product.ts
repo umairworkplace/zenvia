@@ -1,0 +1,1 @@
+export type StorefrontProduct={id:string;title:string;slug:string;price:number}; export const productPath=(p:StorefrontProduct)=>`/products/${p.slug}`;
