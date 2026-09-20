@@ -1,0 +1,1 @@
+export const isImageUrl=(url:string)=>/^https?:\/\//i.test(url.trim());
