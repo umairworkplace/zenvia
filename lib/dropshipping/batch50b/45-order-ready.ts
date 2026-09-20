@@ -1,0 +1,1 @@
+export function orderReady(paid:boolean,items:number){return paid&&items>0;}
