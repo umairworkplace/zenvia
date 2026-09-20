@@ -1,0 +1,1 @@
+export const normalizeCity=(v:string)=>v.trim().replace(/\s+/g," ");
