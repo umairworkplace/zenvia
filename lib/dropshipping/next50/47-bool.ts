@@ -1,0 +1,1 @@
+export const toBool=(v:unknown)=>v===true||v==="true"||v===1;
