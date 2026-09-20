@@ -1,0 +1,1 @@
+export const errorCode=(e:unknown)=>e instanceof Error?e.name:"UNKNOWN_ERROR";
