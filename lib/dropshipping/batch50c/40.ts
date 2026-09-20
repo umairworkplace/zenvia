@@ -1,0 +1,1 @@
+export const US_ZIP_PATTERN=/^\d{5}(-\d{4})?$/;
