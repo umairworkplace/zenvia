@@ -1,0 +1,1 @@
+export const fulfillmentMode="supplier" as const;
