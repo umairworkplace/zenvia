@@ -1,0 +1,1 @@
+export function pageLimit(value:number,maximum=100){return Math.min(maximum,Math.max(1,Math.floor(value)));}
