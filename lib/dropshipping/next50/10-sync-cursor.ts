@@ -1,0 +1,1 @@
+export type SyncCursor={supplier:string;cursor?:string;updatedAt:string};
