@@ -1,0 +1,1 @@
+export function trackingReady(value:string|undefined){return Boolean(value&&value.trim());}
