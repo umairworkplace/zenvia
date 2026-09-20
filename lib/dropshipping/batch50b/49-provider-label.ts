@@ -1,0 +1,1 @@
+export function providerLabel(supplier:string){return supplier.replace(/(^|\s)\S/g,m=>m.toUpperCase());}
