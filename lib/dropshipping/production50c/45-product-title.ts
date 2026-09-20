@@ -1,0 +1,1 @@
+export const cleanProductTitle=(title:string)=>title.trim().replace(/\s+/g,' ');
