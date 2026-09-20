@@ -1,0 +1,1 @@
+export function trackingUrl(carrier:string|undefined,tracking:string|undefined){if(!carrier||!tracking)return undefined;return `https://www.google.com/search?q=${encodeURIComponent(carrier+" "+tracking)}`;}
