@@ -1,0 +1,1 @@
+export function healthScore(success:number,total:number){return total>0?Math.round(success/total*100):0;}
