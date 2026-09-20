@@ -1,0 +1,1 @@
+export type WebhookEvent={id:string;type:string;payload:unknown;receivedAt:string};
