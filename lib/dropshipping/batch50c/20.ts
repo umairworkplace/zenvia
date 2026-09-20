@@ -1,0 +1,1 @@
+export const EVENT_DELIVERY_CONFIRMED="delivery.confirmed";
