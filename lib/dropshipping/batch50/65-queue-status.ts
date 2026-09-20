@@ -1,0 +1,1 @@
+export type QueueStatus="queued"|"running"|"succeeded"|"failed";
