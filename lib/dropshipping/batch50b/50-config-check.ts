@@ -1,0 +1,1 @@
+export function configReady(env:Record<string,string|undefined>){return Boolean(env.CJ_ACCESS_TOKEN||env.ALIEXPRESS_CLIENT_ID||env.AMAZON_SP_API_TOKEN);}
