@@ -1,0 +1,1 @@
+export function isUsZip(zip:string){return /^\d{5}(-\d{4})?$/.test(zip.trim());}
