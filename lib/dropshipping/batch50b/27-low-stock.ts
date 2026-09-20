@@ -1,0 +1,1 @@
+export function lowStock(stock:number,threshold=5){return stock>=0&&stock<=threshold;}
