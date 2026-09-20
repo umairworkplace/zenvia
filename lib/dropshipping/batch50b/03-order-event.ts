@@ -1,0 +1,1 @@
+export type OrderEvent="created"|"paid"|"submitted"|"shipped"|"delivered"|"cancelled";
