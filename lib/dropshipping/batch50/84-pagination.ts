@@ -1,0 +1,1 @@
+export function pageOffset(page=1,limit=25){return {page:Math.max(1,page),limit:Math.min(100,Math.max(1,limit))};}
