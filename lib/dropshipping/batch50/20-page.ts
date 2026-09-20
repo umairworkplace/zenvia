@@ -1,0 +1,1 @@
+export const page=(page=1,size=25)=>({page:Math.max(1,page),size:Math.min(100,Math.max(1,size))});
