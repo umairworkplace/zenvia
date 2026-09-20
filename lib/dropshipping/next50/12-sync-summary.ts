@@ -1,0 +1,1 @@
+export type SyncSummary={seen:number;updated:number;skipped:number;failed:number};
