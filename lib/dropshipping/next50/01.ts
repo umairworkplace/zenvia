@@ -1,0 +1,1 @@
+export const supplierMode="production-ready" as const;
