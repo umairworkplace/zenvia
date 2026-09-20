@@ -1,0 +1,1 @@
+export const positive=(n:number)=>Math.max(0,n);
