@@ -1,0 +1,1 @@
+export type ImportedProduct={externalId:string;title:string;variants:VariantRef[]}; type VariantRef={externalId:string;sku:string};
