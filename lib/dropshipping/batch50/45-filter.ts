@@ -1,0 +1,1 @@
+export const filterSupplier=(items:{supplier:string}[],supplier:string)=>items.filter(x=>x.supplier===supplier);
