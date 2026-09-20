@@ -1,0 +1,1 @@
+export const normalizeTracking=(id:string)=>id.trim().replace(/\s+/g,'').toUpperCase();
