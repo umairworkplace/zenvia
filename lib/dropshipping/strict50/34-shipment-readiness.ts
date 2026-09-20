@@ -1,0 +1,1 @@
+export const shipmentReady=(carrier:string,tracking:string)=>Boolean(carrier&&tracking);
