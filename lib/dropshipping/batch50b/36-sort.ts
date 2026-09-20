@@ -1,0 +1,1 @@
+export function sortBy<T>(items:T[],key:(x:T)=>string|number){return [...items].sort((a,b)=>String(key(a)).localeCompare(String(key(b))));}
