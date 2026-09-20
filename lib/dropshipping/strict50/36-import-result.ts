@@ -1,0 +1,1 @@
+export const importResult=(imported:number,failed:number)=>({imported,failed,total:imported+failed});
