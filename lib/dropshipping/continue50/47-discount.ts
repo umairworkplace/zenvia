@@ -1,0 +1,1 @@
+export const discountAmount=(subtotal:number,rate:number)=>Math.min(subtotal,Math.max(0,subtotal*rate));
