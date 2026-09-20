@@ -1,0 +1,1 @@
+export type OrderSource={supplierOrderId:string;supplier:'cj'|'aliexpress'|'amazon'};
