@@ -1,0 +1,1 @@
+export const clampBatchSize=(n:number)=>Math.min(100,Math.max(1,Math.floor(n)));
