@@ -1,0 +1,1 @@
+export const total=(items:number,shipping=0,tax=0)=>items+shipping+tax;
