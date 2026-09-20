@@ -1,0 +1,1 @@
+export type NotificationKind="order"|"shipping"|"inventory"|"error";
