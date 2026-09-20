@@ -1,0 +1,1 @@
+export function externalKey(supplier:string,id:string){return `${supplier}:${id}`;}
