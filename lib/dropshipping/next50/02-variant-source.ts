@@ -1,0 +1,1 @@
+export type VariantSource={supplierVariantId:string;sku?:string;stock:number};
