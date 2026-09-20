@@ -1,0 +1,1 @@
+export const normalizeAddressLine=(v:string)=>v.trim().replace(/\s+/g," ");
