@@ -1,0 +1,1 @@
+export const shipmentKey=(order:string,shipment:string)=>`${order}:shipment:${shipment}`;
