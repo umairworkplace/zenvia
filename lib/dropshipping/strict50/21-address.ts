@@ -1,0 +1,1 @@
+export const normalizeAddress=(line:string)=>line.trim().replace(/\s+/g," ");
