@@ -1,0 +1,1 @@
+export const EVENT_PRODUCT_IMPORTED="product.imported";
