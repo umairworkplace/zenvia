@@ -1,0 +1,1 @@
+export const SYNC_STATUS=['queued','running','success','failed'] as const;
