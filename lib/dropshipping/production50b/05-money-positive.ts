@@ -1,0 +1,1 @@
+export const isPositiveAmount=(value:number)=>Number.isFinite(value)&&value>0;
