@@ -1,0 +1,1 @@
+export const isStale=(at:string,maxMs:number)=>Date.now()-Date.parse(at)>maxMs;
