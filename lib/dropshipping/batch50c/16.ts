@@ -1,0 +1,1 @@
+export const EVENT_INVENTORY_UPDATED="inventory.updated";
