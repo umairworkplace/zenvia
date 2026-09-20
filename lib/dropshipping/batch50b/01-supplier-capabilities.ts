@@ -1,0 +1,1 @@
+export const SUPPLIER_CAPABILITIES={cj:["import","inventory","orders","tracking"],aliexpress:["import","inventory"],amazon:["catalog"]} as const;
