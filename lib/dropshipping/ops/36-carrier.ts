@@ -1,0 +1,1 @@
+export const carrier=(name:string)=>name.trim();
