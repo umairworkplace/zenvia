@@ -1,0 +1,1 @@
+export const WEBHOOK_SIGNATURE_HEADER="x-zenvia-signature";
