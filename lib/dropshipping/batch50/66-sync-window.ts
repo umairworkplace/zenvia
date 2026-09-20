@@ -1,0 +1,1 @@
+export function inSyncWindow(now=Date.now(),last=0,interval=900000){return now-last>=interval;}
