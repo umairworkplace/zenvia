@@ -1,0 +1,1 @@
+export const stockDelta=(before:number,after:number)=>after-before;
