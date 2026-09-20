@@ -1,0 +1,1 @@
+export const priceChanged=(a:number,b:number)=>a!==b;
