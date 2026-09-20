@@ -1,0 +1,1 @@
+export const webhookEvent=(type:string,payload:unknown)=>({type,payload,receivedAt:new Date().toISOString()});
