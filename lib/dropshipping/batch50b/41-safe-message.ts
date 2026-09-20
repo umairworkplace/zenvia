@@ -1,0 +1,1 @@
+export function safeMessage(error:unknown){return error instanceof Error?error.message:"Unknown supplier error";}
