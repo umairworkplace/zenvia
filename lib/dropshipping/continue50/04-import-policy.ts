@@ -1,0 +1,1 @@
+export type ImportPolicy={publish:boolean;markupPercent:number;stockBuffer:number};
