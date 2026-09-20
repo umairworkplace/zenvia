@@ -1,0 +1,1 @@
+export function orderTotal(lines:{price:number;quantity:number}[]){return Number(lines.reduce((s,l)=>s+l.price*l.quantity,0).toFixed(2));}
