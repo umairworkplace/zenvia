@@ -1,0 +1,1 @@
+export const stockBufferPercent=5;
