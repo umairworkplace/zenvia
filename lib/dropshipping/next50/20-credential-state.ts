@@ -1,0 +1,1 @@
+export type CredentialState="missing"|"configured"|"invalid"|"expired";
