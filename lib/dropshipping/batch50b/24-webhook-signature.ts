@@ -1,0 +1,1 @@
+export function hasSignature(value:string|undefined){return Boolean(value&&value.length>10);}
