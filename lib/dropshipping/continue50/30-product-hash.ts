@@ -1,0 +1,1 @@
+export const productHash=(title:string,sku:string)=>`${title.trim().toLowerCase()}:${sku.trim().toLowerCase()}`;
