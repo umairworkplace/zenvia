@@ -1,0 +1,1 @@
+export const syncWindow=(minutes=15)=>({minutes,scheduledAt:new Date(Date.now()+minutes*60000).toISOString()});
