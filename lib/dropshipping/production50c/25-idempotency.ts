@@ -1,0 +1,1 @@
+export const idempotencyKey=(scope:string,id:string)=>`${scope}:${id}`;
