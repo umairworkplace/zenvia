@@ -1,0 +1,1 @@
+export const availableStock=(stock:number,reserved:number)=>Math.max(0,stock-reserved);
