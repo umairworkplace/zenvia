@@ -1,0 +1,1 @@
+export const eventName=(supplier:string,event:string)=>`${supplier}.${event}`;
