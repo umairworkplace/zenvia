@@ -1,0 +1,1 @@
+export const isUsa=(country:string)=>country.trim().toUpperCase()=== 'US';
