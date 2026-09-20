@@ -1,0 +1,1 @@
+export function canRefund(state:string){return ['paid','shipped','delivered','cancelled'].includes(state);}
