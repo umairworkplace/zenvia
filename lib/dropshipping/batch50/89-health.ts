@@ -1,0 +1,1 @@
+export type SupplierHealth={supplier:string;ok:boolean;latencyMs?:number;checkedAt:string;error?:string};
