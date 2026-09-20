@@ -1,0 +1,1 @@
+export const money=(n:number)=>Number(n.toFixed(2));
