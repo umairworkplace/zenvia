@@ -1,0 +1,1 @@
+export const clampLimit=(n:number,min=1,max=100)=>Math.min(max,Math.max(min,Math.floor(n)));
