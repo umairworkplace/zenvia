@@ -1,0 +1,1 @@
+export function idempotencyKey(scope:string,id:string){return `${scope}:${id}`;}
