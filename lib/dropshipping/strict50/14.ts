@@ -1,0 +1,1 @@
+export const syncPageSize=50;
