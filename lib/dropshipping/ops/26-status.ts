@@ -1,0 +1,1 @@
+export const statusOk=(s:number)=>s>=200&&s<300;
