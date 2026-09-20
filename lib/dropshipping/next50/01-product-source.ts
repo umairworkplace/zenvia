@@ -1,0 +1,1 @@
+export type ProductSource={supplierId:string;externalId:string;sku?:string};
