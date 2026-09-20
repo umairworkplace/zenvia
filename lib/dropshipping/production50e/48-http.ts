@@ -1,0 +1,1 @@
+export const jsonHeaders={'content-type':'application/json'} as const;
