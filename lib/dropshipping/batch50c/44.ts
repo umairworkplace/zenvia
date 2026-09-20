@@ -1,0 +1,1 @@
+export const SHIPPING_STATUS_DELIVERED="delivered";
