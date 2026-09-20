@@ -1,0 +1,1 @@
+export const trackingUrl=(carrier:string,number:string)=>`/track?carrier=${encodeURIComponent(carrier)}&number=${encodeURIComponent(number)}`;
