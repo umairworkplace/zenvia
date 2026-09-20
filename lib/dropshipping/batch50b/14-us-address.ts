@@ -1,0 +1,1 @@
+export function isUSAddress(country:string){return ["US","USA","United States","United States of America"].includes(country.trim());}
