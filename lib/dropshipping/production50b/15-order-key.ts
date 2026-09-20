@@ -1,0 +1,1 @@
+export const orderKey=(id:string)=>id.trim();
