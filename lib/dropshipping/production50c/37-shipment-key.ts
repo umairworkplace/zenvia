@@ -1,0 +1,1 @@
+export const shipmentKey=(orderId:string,tracking:string)=>`${orderId}:${tracking}`;
