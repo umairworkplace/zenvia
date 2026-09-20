@@ -1,0 +1,1 @@
+export const ageMs=(date:string)=>Date.now()-new Date(date).getTime();
