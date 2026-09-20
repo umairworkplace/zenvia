@@ -1,0 +1,1 @@
+export function normalizeExternalId(value:string){return value.trim();}
