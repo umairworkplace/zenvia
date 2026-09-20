@@ -1,0 +1,1 @@
+export const sellableStock=(supplierStock:number,buffer=2)=>Math.max(0,supplierStock-buffer);
