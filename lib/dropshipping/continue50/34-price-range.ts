@@ -1,0 +1,1 @@
+export const withinPriceRange=(price:number,min=0,max=1e7)=>price>=min&&price<=max;
