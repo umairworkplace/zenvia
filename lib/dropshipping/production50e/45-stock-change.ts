@@ -1,0 +1,1 @@
+export const stockChanged=(a:number,b:number)=>a!==b;
