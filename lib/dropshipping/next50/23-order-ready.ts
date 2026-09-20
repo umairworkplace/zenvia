@@ -1,0 +1,1 @@
+export function isOrderReady(items:number,total:number){return items>0&&total>0;}
