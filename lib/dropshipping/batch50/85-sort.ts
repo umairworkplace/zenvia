@@ -1,0 +1,1 @@
+export function safeSort(field:string){return /^[a-zA-Z0-9_]+$/.test(field)?field:"createdAt";}
