@@ -1,0 +1,1 @@
+export const SUPPLIERS=["cj","aliexpress","amazon"] as const; export type SupplierName=typeof SUPPLIERS[number];
