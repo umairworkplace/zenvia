@@ -1,0 +1,1 @@
+export const country=(code:string)=>code.trim().toUpperCase();
