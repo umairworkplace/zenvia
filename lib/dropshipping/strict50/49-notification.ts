@@ -1,0 +1,1 @@
+export const notification=(channel:string,message:string)=>({channel,message,createdAt:new Date().toISOString()});
