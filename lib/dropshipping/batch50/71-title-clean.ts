@@ -1,0 +1,1 @@
+export function cleanTitle(title:string){return title.replace(/\s+/g," ").trim().slice(0,180);}
