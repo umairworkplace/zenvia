@@ -1,0 +1,1 @@
+export const defaultShippingDays=7;
