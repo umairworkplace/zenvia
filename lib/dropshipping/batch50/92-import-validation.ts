@@ -1,0 +1,1 @@
+export function validateImportId(id:string){return id.trim().length>0&&id.length<=200;}
