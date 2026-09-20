@@ -1,0 +1,1 @@
+export function applyMarkup(cost:number,percent:number){return Math.max(0,Number((cost*(1+percent/100)).toFixed(2)));}
