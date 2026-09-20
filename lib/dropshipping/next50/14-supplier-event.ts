@@ -1,0 +1,1 @@
+export type SupplierEvent={id:string;type:string;occurredAt:string;payload:Record<string,unknown>};
