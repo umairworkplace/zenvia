@@ -1,0 +1,1 @@
+export const maxSyncItems=250;
