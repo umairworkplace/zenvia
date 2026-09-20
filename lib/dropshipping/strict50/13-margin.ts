@@ -1,0 +1,1 @@
+export const margin=(sale:number,cost:number)=>sale>0?(sale-cost)/sale:0;
