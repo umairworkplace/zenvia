@@ -1,0 +1,1 @@
+export const hasAddress=(a:{name?:string;address?:string;city?:string;state?:string;zip?:string})=>Boolean(a.name&&a.address&&a.city&&a.state&&a.zip);
