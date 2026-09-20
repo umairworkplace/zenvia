@@ -1,0 +1,1 @@
+export type SyncResult={startedAt:string;finishedAt?:string;updated:number;failed:number};
