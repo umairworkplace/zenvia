@@ -1,0 +1,1 @@
+export const variantHandle=(id:string)=>`variant-${id.trim()}`;
