@@ -1,0 +1,1 @@
+export const clampPageSize=(size:number,min=1,max=100)=>Math.min(max,Math.max(min,Math.floor(size)));
