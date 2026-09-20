@@ -1,0 +1,1 @@
+export function validQuantity(q:number){return Number.isInteger(q)&&q>0;}
