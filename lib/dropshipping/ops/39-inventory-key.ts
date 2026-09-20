@@ -1,0 +1,1 @@
+export const inventoryKey=(supplier:string,sku:string)=>`${supplier}:inventory:${sku}`;
