@@ -1,0 +1,1 @@
+export const checkoutGuard=(total:number)=>Number.isFinite(total)&&total>=0;
