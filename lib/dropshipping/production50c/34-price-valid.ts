@@ -1,0 +1,1 @@
+export const isValidPrice=(price:number)=>Number.isFinite(price)&&price>=0;
