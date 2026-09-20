@@ -1,0 +1,1 @@
+export const failure=(error:unknown)=>({ok:false,error:error instanceof Error?error.message:String(error)});
