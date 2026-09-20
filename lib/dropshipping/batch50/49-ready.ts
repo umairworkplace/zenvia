@@ -1,0 +1,1 @@
+export const readyForImport=(title:string,variants:number)=>title.trim().length>0&&variants>0;
