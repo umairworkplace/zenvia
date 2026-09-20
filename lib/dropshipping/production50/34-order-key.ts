@@ -1,0 +1,1 @@
+export const buildOrderKey=(orderId:string)=>`order:${orderId}`;

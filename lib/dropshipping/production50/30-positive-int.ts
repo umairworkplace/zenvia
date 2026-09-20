@@ -1,0 +1,1 @@
+export const parsePositiveInt=(value:string|number,fallback=0)=>{const n=Number(value);return Number.isInteger(n)&&n>=0?n:fallback;};

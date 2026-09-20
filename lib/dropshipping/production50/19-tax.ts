@@ -1,0 +1,1 @@
+export const calculateTax=(taxable:number,rate:number)=>Math.max(0,taxable)*Math.max(0,rate)/100;

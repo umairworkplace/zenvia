@@ -1,0 +1,1 @@
+export const isRetryableHttpStatus=(status:number)=>status===408||status===429||(status>=500&&status<600);

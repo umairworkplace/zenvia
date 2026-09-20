@@ -1,0 +1,1 @@
+export type FulfillmentStatus = 'unfulfilled' | 'submitted' | 'shipped' | 'delivered';

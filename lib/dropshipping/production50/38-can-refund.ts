@@ -1,0 +1,1 @@
+export const canRefundOrder=(status:string)=>['paid','fulfilled','delivered'].includes(status);

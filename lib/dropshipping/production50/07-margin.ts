@@ -1,0 +1,1 @@
+export const calculateMargin=(sale:number,cost:number)=>sale>0?((sale-cost)/sale)*100:0;

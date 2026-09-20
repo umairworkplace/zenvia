@@ -1,0 +1,1 @@
+export const clampQuantity=(qty:number)=>Math.max(0,Math.floor(qty));

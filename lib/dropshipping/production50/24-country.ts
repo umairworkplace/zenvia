@@ -1,0 +1,1 @@
+export const isSupportedCountry=(country:string)=>country.toUpperCase()==='US';

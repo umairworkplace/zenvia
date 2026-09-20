@@ -1,0 +1,1 @@
+export const trimText=(value:string,maxLength=500)=>value.trim().slice(0,maxLength);

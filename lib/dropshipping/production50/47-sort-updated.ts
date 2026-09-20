@@ -1,0 +1,1 @@
+export const sortByUpdatedAtDesc=<T extends {updatedAt:Date}>(items:T[])=>[...items].sort((a,b)=>b.updatedAt.getTime()-a.updatedAt.getTime());

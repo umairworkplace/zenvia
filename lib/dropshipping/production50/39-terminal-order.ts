@@ -1,0 +1,1 @@
+export const isTerminalOrder=(status:string)=>['cancelled','refunded','delivered'].includes(status);

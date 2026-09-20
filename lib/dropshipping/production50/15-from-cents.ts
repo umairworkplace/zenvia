@@ -1,0 +1,1 @@
+export const fromCents=(cents:number)=>cents/100;

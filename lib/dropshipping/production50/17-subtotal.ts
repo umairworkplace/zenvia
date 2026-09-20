@@ -1,0 +1,1 @@
+export const calculateSubtotal=(price:number,quantity:number)=>Math.max(0,price)*Math.max(0,quantity);

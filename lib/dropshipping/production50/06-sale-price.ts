@@ -1,0 +1,1 @@
+export const calculateSalePrice=(cost:number,markup:number)=>Math.round(cost*(1+markup/100)*100)/100;

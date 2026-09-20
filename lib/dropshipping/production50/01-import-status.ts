@@ -1,0 +1,1 @@
+export type ProductImportStatus = 'queued' | 'importing' | 'ready' | 'failed';

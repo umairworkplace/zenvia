@@ -1,0 +1,1 @@
+export const nextRetryDelay=(attempt:number,baseMs=500,maxMs=30000)=>Math.min(maxMs,baseMs*2**Math.max(0,attempt));

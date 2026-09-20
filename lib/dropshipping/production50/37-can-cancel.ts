@@ -1,0 +1,1 @@
+export const canCancelOrder=(status:string)=>['pending','paid'].includes(status);

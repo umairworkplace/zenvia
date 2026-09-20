@@ -1,0 +1,1 @@
+export const paginate=(page:number,size:number)=>({offset:Math.max(0,page-1)*Math.max(1,size),limit:Math.max(1,size)});

@@ -1,0 +1,1 @@
+export const createIdempotencyKey=(prefix:string,id:string)=>`${prefix}:${id}`;

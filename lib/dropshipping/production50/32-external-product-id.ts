@@ -1,0 +1,1 @@
+export const buildExternalProductId=(source:string,id:string)=>`${source}:${id}`;

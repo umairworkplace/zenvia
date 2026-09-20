@@ -1,0 +1,1 @@
+export const hasStock=(available:number,requested:number)=>available>=requested;

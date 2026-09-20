@@ -1,0 +1,1 @@
+export const normalizeCountry=(country:string)=>country.trim().toUpperCase();

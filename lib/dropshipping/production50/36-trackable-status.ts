@@ -1,0 +1,1 @@
+export const isTrackableStatus=(status:string)=>['shipped','in_transit','out_for_delivery'].includes(status);

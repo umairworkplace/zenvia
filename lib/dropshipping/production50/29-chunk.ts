@@ -1,0 +1,1 @@
+export const chunk=(items:unknown[],size:number)=>{const out:unknown[][]=[];for(let i=0;i<items.length;i+=size)out.push(items.slice(i,i+size));return out;};

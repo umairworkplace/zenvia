@@ -1,0 +1,1 @@
+export type ProductSource = 'cj' | 'aliexpress' | 'amazon';

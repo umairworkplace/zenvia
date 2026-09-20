@@ -1,0 +1,1 @@
+export const isStale=(updatedAt:Date,maxAgeMs:number,now=Date.now())=>now-updatedAt.getTime()>maxAgeMs;
