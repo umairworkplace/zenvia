@@ -1,0 +1,1 @@
+export const url=(base:string,path:string)=>new URL(path,base).toString();
