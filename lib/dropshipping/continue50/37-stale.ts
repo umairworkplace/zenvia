@@ -1,0 +1,1 @@
+export const isStale=(date:string|Date,minutes:number)=>syncAge(date)>minutes; function syncAge(date:string|Date){return Math.max(0,(Date.now()-new Date(date).getTime())/60000);}
