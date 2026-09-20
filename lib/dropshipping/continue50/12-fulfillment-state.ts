@@ -1,0 +1,1 @@
+export const FULFILLMENT_STATES=['pending','submitted','processing','shipped','delivered','exception'] as const;
