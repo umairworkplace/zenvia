@@ -1,0 +1,1 @@
+export type ImportResult={ok:boolean;productId?:string;error?:string};
