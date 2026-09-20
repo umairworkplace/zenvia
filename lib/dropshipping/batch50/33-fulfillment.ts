@@ -1,0 +1,1 @@
+export const canFulfill=(status:string)=>["paid","ready"].includes(status);
