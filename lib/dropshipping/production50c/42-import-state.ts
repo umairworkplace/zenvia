@@ -1,0 +1,1 @@
+export const isImportReady=(status:string)=>status.trim().toLowerCase()==='ready';
