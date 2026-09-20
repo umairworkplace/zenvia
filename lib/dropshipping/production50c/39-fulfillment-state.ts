@@ -1,0 +1,1 @@
+export const isShippable=(status:string)=>['paid','ready'].includes(status.trim().toLowerCase());
