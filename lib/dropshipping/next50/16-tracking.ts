@@ -1,0 +1,1 @@
+export const hasTracking=(v?:string)=>Boolean(v?.trim());
