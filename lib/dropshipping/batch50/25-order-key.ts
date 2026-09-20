@@ -1,0 +1,1 @@
+export const supplierOrderKey=(supplier:string,orderId:string)=>`${supplier.toLowerCase()}-${orderId}`;
