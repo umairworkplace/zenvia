@@ -1,0 +1,1 @@
+export const lockName=(scope:string)=>`sync:${scope}`;
