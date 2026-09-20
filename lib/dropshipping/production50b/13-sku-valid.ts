@@ -1,0 +1,1 @@
+export const isValidSku=(sku:string)=>/^[A-Z0-9_-]{2,80}$/.test(sku.trim().toUpperCase());
