@@ -1,0 +1,1 @@
+export const catalogSync={enabled:true,intervalMinutes:30};
