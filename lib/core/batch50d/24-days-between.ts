@@ -1,0 +1,1 @@
+export const daysBetween=(a:string,b:string)=>Math.abs(new Date(b).getTime()-new Date(a).getTime())/86400000;

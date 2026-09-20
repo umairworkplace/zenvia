@@ -1,0 +1,1 @@
+export const memoKey=(parts:string[])=>parts.join(':');

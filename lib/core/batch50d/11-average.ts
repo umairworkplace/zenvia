@@ -1,0 +1,1 @@
+export const average=(xs:number[])=>xs.length?sum(xs)/xs.length:0; const sum=(a:number[])=>a.reduce((x,y)=>x+y,0);

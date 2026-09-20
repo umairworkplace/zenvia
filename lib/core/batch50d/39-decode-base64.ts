@@ -1,0 +1,1 @@
+export const decodeBase64=(x:string)=>Buffer.from(x,'base64').toString('utf8');

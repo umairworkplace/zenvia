@@ -1,0 +1,1 @@
+export const values=(x:Record<string,unknown>)=>Object.values(x);

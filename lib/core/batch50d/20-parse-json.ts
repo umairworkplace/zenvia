@@ -1,0 +1,1 @@
+export const parseJson=(x:string)=>JSON.parse(x);

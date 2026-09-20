@@ -1,0 +1,1 @@
+export const encodeBase64=(x:string)=>Buffer.from(x).toString('base64');

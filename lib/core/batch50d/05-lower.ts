@@ -1,0 +1,1 @@
+export const lower=(x:string)=>x.toLowerCase();

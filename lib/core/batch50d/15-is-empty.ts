@@ -1,0 +1,1 @@
+export const isEmpty=(x:string)=>x.trim().length===0;

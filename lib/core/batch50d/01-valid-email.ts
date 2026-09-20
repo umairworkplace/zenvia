@@ -1,0 +1,1 @@
+export const validEmail=(x:string)=>/^\S+@\S+\.\S+$/.test(x);

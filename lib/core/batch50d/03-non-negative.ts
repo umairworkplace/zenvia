@@ -1,0 +1,1 @@
+export const nonNegative=(n:number)=>Math.max(0,n);

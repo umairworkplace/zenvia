@@ -1,0 +1,1 @@
+export const trim=(x:string)=>x.trim();

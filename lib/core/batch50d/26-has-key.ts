@@ -1,0 +1,1 @@
+export const hasKey=(x:object,k:string)=>Object.prototype.hasOwnProperty.call(x,k);

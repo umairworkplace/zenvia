@@ -1,0 +1,1 @@
+export const percent=(part:number,total:number)=>total?part/total*100:0;

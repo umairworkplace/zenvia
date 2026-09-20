@@ -1,0 +1,1 @@
+export const compact=<T>(xs:(T|null|undefined)[])=>xs.filter((x):x is T=>x!=null);

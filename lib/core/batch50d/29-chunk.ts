@@ -1,0 +1,1 @@
+export const chunk=<T>(xs:T[],size:number)=>Array.from({length:Math.ceil(xs.length/size)},(_,i)=>xs.slice(i*size,(i+1)*size));

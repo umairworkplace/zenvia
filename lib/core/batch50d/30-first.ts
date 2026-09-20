@@ -1,0 +1,1 @@
+export const first=<T>(xs:T[])=>xs[0];

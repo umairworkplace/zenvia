@@ -1,0 +1,1 @@
+export const toInt=(x:string|number)=>Number.parseInt(String(x),10);

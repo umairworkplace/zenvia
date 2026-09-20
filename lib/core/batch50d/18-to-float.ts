@@ -1,0 +1,1 @@
+export const toFloat=(x:string|number)=>Number.parseFloat(String(x));

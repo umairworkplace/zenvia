@@ -1,0 +1,1 @@
+export const omit=(x:Record<string,unknown>,keys:string[])=>Object.fromEntries(Object.entries(x).filter(([k])=>!keys.includes(k)));

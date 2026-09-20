@@ -1,0 +1,1 @@
+export const safeJson=(x:unknown)=>JSON.stringify(x);
