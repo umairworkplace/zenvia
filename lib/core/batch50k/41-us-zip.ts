@@ -1,0 +1,1 @@
+export const isUsZip=(value:string)=>/^\d{5}(-\d{4})?$/.test(value.trim());

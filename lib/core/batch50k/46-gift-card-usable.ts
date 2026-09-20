@@ -1,0 +1,1 @@
+export const giftCardUsable=(active:boolean,balance:number)=>active&&balance>0;

@@ -1,0 +1,1 @@
+export const normalizeSearch=(query:string)=>query.trim().toLowerCase();

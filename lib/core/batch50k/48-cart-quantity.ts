@@ -1,0 +1,1 @@
+export const cartQuantity=(items:{qty:number}[])=>items.reduce((sum,item)=>sum+Math.max(0,item.qty),0);

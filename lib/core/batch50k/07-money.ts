@@ -1,0 +1,1 @@
+export const nonNegativeMoney=(value:number)=>Math.max(0,Math.round(value*100)/100);

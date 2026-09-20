@@ -1,0 +1,1 @@
+export const isSupplierSource=(source:string)=>['cj','aliexpress','amazon'].includes(source);

@@ -1,0 +1,1 @@
+export const validRating=(rating:number)=>rating>=1&&rating<=5;

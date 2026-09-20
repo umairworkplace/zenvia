@@ -1,0 +1,1 @@
+export const webhookValid=(signature:string)=>signature.trim().length>10;

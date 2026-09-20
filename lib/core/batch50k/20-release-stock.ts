@@ -1,0 +1,1 @@
+export const releaseStock=(stock:number,qty:number)=>Math.max(0,stock)+Math.max(0,qty);

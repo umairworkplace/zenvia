@@ -1,0 +1,1 @@
+export const referralAvailable=(uses:number,maxUses:number)=>uses<maxUses;

@@ -1,0 +1,1 @@
+export const marginPercent=(cost:number,price:number)=>price>0?(price-cost)/price*100:0;

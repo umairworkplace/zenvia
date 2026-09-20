@@ -1,0 +1,1 @@
+export const sortByPriceDesc=<T extends {price:number}>(items:T[])=>[...items].sort((a,b)=>b.price-a.price);

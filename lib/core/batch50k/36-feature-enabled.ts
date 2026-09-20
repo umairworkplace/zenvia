@@ -1,0 +1,1 @@
+export const featureEnabled=(enabled:boolean)=>enabled;

@@ -1,0 +1,1 @@
+export const skip=(items:unknown[],count:number)=>items.slice(Math.max(0,count));

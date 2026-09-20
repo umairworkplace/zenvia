@@ -1,0 +1,1 @@
+export const canonical=(origin:string,path:string)=>`${origin.replace(/\/$/,'')}/${path.replace(/^\//,'')}`;

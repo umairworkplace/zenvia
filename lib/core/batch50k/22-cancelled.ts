@@ -1,0 +1,1 @@
+export const isCancelled=(status:string)=>status==='cancelled';

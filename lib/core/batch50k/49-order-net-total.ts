@@ -1,0 +1,1 @@
+export const orderNetTotal=(revenue:number,refunds:number)=>Math.max(0,revenue-refunds);

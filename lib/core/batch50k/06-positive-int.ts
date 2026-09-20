@@ -1,0 +1,1 @@
+export const positiveInt=(value:number)=>Math.max(0,Math.floor(value));

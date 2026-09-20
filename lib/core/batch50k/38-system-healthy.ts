@@ -1,0 +1,1 @@
+export const systemHealthy=(database:boolean,payments:boolean)=>database&&payments;

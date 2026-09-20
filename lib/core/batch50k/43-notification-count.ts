@@ -1,0 +1,1 @@
+export const notificationCount=(items:{read:boolean}[])=>items.filter(x=>!x.read).length;

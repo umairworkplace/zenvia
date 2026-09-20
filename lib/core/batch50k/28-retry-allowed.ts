@@ -1,0 +1,1 @@
+export const retryAllowed=(attempt:number,max=5)=>attempt<max;

@@ -1,0 +1,1 @@
+export const isDelivered=(status:string)=>status==='delivered';

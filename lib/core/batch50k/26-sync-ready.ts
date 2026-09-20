@@ -1,0 +1,1 @@
+export const syncReady=(status:string)=>status==='idle'||status==='success';

@@ -1,0 +1,1 @@
+export const take=(items:unknown[],count:number)=>items.slice(0,Math.max(0,count));

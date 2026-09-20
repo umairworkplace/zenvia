@@ -1,0 +1,1 @@
+export const percentOf=(amount:number,percent:number)=>amount*percent/100;

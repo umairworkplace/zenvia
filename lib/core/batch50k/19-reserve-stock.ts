@@ -1,0 +1,1 @@
+export const reserveStock=(stock:number,qty:number)=>Math.max(0,stock-Math.max(0,qty));

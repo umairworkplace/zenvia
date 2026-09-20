@@ -1,0 +1,1 @@
+export const subtractMoney=(a:number,b:number)=>Math.round((a-b)*100)/100;

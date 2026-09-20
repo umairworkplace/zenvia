@@ -1,0 +1,1 @@
+export const searchMatch=(title:string,query:string)=>title.toLowerCase().includes(query.trim().toLowerCase());

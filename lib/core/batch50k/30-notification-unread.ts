@@ -1,0 +1,1 @@
+export const notificationUnread=(read:boolean)=>!read;

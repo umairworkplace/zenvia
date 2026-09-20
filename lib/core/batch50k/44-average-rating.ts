@@ -1,0 +1,1 @@
+export const averageRating=(ratings:number[])=>ratings.length?ratings.reduce((a,b)=>a+b,0)/ratings.length:0;

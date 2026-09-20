@@ -1,0 +1,1 @@
+export const loyaltyValue=(points:number)=>Math.max(0,points)*0.01;
