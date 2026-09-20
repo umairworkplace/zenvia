@@ -1,0 +1,1 @@
+export const strict50c31=true;
