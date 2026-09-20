@@ -1,0 +1,1 @@
+export type Notification={channel:'email'|'sms'|'push';recipient:string;template:string};
