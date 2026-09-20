@@ -1,0 +1,1 @@
+export const limit=(n:number,max=100)=>Math.min(Math.max(1,n),max);
