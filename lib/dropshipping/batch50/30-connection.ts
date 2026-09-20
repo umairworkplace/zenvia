@@ -1,0 +1,1 @@
+export type SupplierConnection={supplier:string;connected:boolean;checkedAt?:string};
