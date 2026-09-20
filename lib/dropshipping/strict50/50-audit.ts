@@ -1,0 +1,1 @@
+export const auditEntry=(action:string,entityId:string)=>({action,entityId,at:new Date().toISOString()});
