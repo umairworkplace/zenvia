@@ -1,0 +1,1 @@
+export type OrderItemLink={localItemId:string;supplierVariantId:string;quantity:number};
