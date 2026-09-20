@@ -1,0 +1,1 @@
+export type SyncWindow={from:string;to:string;limit:number};
