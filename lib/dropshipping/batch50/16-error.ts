@@ -1,0 +1,1 @@
+export class SupplierError extends Error{constructor(message:string,readonly supplier:string){super(message);this.name="SupplierError";}}
