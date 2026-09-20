@@ -1,0 +1,1 @@
+export const eventKey=(type:string,id:string)=>`${type}:${id}`;
