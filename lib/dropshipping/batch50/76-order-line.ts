@@ -1,0 +1,1 @@
+export type SupplierOrderLine={variantId:string;quantity:number;unitCost:number};
