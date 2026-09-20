@@ -1,0 +1,1 @@
+export function canRefund(status:string){return ["paid","processing","cancelled"].includes(status);}
