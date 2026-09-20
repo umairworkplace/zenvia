@@ -1,0 +1,1 @@
+export const validQuantity=(quantity:number)=>Number.isInteger(quantity)&&quantity>0;
