@@ -1,0 +1,1 @@
+export const syncLog=(action:string,status:string)=>({action,status,at:new Date().toISOString()});
