@@ -1,0 +1,1 @@
+export const productReady=(sku:string,title:string)=>Boolean(sku.trim()&&title.trim());
