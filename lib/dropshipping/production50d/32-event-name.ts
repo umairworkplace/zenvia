@@ -1,0 +1,1 @@
+export const eventName=(type:string,id:string)=>`${type}.${id}`;

@@ -1,0 +1,1 @@
+export const addressLine=(parts:string[])=>parts.map(v=>v.trim()).filter(Boolean).join(', ');

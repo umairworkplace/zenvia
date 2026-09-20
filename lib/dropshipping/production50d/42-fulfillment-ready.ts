@@ -1,0 +1,1 @@
+export const fulfillmentReady=(productId:string,stock:number)=>Boolean(productId)&&stock>0;

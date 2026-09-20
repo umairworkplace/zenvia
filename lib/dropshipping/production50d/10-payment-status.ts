@@ -1,0 +1,1 @@
+export const isPaid=(status:string)=>status==='paid'||status==='authorized';

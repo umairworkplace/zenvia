@@ -1,0 +1,1 @@
+export const isAmazonSource=(v:string)=>v.toLowerCase()==='amazon';

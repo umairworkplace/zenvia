@@ -1,0 +1,1 @@
+export const stateCode=(v:string)=>v.trim().toUpperCase();

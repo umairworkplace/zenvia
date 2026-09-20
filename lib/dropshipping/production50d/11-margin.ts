@@ -1,0 +1,1 @@
+export const calcMargin=(sell:number,cost:number)=>sell-cost;

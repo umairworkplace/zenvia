@@ -1,0 +1,1 @@
+export const hasStock=(stock:number)=>stock>0;

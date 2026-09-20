@@ -1,0 +1,1 @@
+export const normalizeEmail=(v:string)=>v.trim().toLowerCase();

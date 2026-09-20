@@ -1,0 +1,1 @@
+export const isStale=(updated:number,now=Date.now(),maxAge=86400000)=>now-updated>maxAge;

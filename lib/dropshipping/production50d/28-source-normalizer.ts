@@ -1,0 +1,1 @@
+export const normalizeSource=(v:string)=>v.trim().toLowerCase();

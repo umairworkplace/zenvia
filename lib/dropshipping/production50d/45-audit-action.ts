@@ -1,0 +1,1 @@
+export const auditAction=(entity:string,action:string)=>`${entity}:${action}`;

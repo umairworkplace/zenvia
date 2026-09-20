@@ -1,0 +1,1 @@
+export const safeHeader=(v:string)=>v.replace(/[\r\n]/g,'');

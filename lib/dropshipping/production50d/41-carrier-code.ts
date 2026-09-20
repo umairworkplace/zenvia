@@ -1,0 +1,1 @@
+export const carrierCode=(v:string)=>v.trim().toUpperCase();

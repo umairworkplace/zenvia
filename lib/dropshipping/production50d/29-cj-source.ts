@@ -1,0 +1,1 @@
+export const isCJSource=(v:string)=>['cj','cjdropshipping'].includes(v.toLowerCase());

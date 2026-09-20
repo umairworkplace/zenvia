@@ -1,0 +1,1 @@
+export const inventoryKey=(sku:string)=>`inventory:${normalizeSku(sku)}`;

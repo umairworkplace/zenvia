@@ -1,0 +1,1 @@
+export const trackingUrl=(base:string,tracking:string)=>`${base.replace(/\/$/,'')}/${encodeURIComponent(tracking)}`;

@@ -1,0 +1,1 @@
+export const checkoutGuard = (total:number) => total >= 0;

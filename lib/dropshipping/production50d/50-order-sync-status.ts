@@ -1,0 +1,1 @@
+export const orderStatus=(paid:boolean,fulfilled:boolean)=>paid?(fulfilled?'fulfilled':'processing'):'pending';

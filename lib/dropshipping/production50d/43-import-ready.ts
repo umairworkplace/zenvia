@@ -1,0 +1,1 @@
+export const importReady=(sourceId:string,externalId:string)=>Boolean(sourceId&&externalId);

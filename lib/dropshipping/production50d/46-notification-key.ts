@@ -1,0 +1,1 @@
+export const notificationKey=(userId:string,type:string)=>`notify:${userId}:${type}`;

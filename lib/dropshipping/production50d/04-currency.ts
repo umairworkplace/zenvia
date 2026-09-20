@@ -1,0 +1,1 @@
+export const isUsd = (currency:string) => currency.toUpperCase()==='USD';

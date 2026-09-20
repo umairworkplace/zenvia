@@ -1,0 +1,1 @@
+export const sourceProductKey=(source:string,id:string)=>`${normalizeSource(source)}:product:${id}`;

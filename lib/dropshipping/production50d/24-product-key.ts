@@ -1,0 +1,1 @@
+export const productKey=(id:string)=>`product:${id}`;

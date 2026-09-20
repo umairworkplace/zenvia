@@ -1,0 +1,1 @@
+export const isUsCountry=(v:string)=>v.toUpperCase()==='US'||v.toUpperCase()==='USA';

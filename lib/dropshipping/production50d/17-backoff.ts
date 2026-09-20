@@ -1,0 +1,1 @@
+export const backoffMs=(attempt:number)=>Math.min(30000,500*Math.pow(2,attempt));

@@ -1,0 +1,1 @@
+export const limitPageSize=(size:number)=>Math.min(100,Math.max(1,size));

@@ -1,0 +1,1 @@
+export const webhookSignatureInput=(id:string,timestamp:number)=>`${id}.${timestamp}`;

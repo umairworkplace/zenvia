@@ -1,0 +1,1 @@
+export const normalizeTracking=(v:string)=>v.trim().toUpperCase();

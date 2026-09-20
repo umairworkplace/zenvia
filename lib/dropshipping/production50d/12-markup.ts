@@ -1,0 +1,1 @@
+export const calcMarkup=(cost:number,rate:number)=>cost*(1+rate/100);

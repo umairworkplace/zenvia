@@ -1,0 +1,1 @@
+export const shippingTotal=(base:number,shipping:number)=>base+shipping;
