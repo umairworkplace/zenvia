@@ -1,0 +1,1 @@
+export const SHIPPING_STATUS_OUT_FOR_DELIVERY="out_for_delivery";
