@@ -1,0 +1,1 @@
+export type SyncLog={supplier:string;operation:string;ok:boolean;startedAt:string;finishedAt?:string;error?:string};
