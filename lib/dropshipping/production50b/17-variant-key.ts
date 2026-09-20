@@ -1,0 +1,1 @@
+export const variantKey=(id:string)=>id.trim();
