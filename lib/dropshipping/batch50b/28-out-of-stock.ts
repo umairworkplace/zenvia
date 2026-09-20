@@ -1,0 +1,1 @@
+export function outOfStock(stock:number){return stock<=0;}
