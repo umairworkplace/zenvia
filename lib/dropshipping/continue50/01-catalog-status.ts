@@ -1,0 +1,1 @@
+export const CATALOG_STATUS=['draft','active','paused','archived'] as const;
