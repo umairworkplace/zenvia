@@ -1,0 +1,1 @@
+export function retryDelay(attempt:number,base=500,max=30000){return Math.min(max,base*2**Math.max(0,attempt));}
