@@ -1,0 +1,1 @@
+export const refundable=(status:string)=>["pending","processing","exception"].includes(status);
