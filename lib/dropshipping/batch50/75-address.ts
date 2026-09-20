@@ -1,0 +1,1 @@
+export type ShippingAddress={name:string;line1:string;city:string;state:string;zip:string;country:string};
