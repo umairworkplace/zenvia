@@ -1,0 +1,1 @@
+export type NotificationChannel="email"|"in_app"|"sms"; export type Notification={channel:NotificationChannel;template:string;orderId:string};
