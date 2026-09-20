@@ -1,0 +1,1 @@
+export const applyMarkup=(cost:number,pct:number)=>cost*(1+pct/100);
