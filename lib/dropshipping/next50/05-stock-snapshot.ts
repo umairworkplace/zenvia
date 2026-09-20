@@ -1,0 +1,1 @@
+export type StockSnapshot={externalVariantId:string;available:number;reserved:number;updatedAt:string};
