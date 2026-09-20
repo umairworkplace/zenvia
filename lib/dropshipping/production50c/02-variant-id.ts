@@ -1,0 +1,1 @@
+export const normalizeVariantId=(id:string)=>id.trim();
