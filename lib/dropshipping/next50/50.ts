@@ -1,0 +1,1 @@
+export const completedOrderStates=["delivered","cancelled","refunded"] as const;
