@@ -1,0 +1,1 @@
+export const productKey=(id:string)=>id.trim();
