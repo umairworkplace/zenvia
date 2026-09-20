@@ -1,0 +1,1 @@
+export type FulfillmentEvent={type:string;orderId:string;at:string}; export const event=(type:string,orderId:string):FulfillmentEvent=>({type,orderId,at:new Date().toISOString()});
