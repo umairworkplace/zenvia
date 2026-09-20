@@ -1,0 +1,1 @@
+export const trackingStates=["unavailable","label_created","in_transit","out_for_delivery","delivered","exception"] as const;
