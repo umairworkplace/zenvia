@@ -1,0 +1,1 @@
+export const module042=(value:unknown)=>value;
