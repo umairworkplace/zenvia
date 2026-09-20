@@ -1,0 +1,1 @@
+export const maxImportItems=100;
