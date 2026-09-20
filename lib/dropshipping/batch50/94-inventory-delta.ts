@@ -1,0 +1,1 @@
+export function inventoryDelta(previous:number,current:number){return current-previous;}
