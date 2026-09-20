@@ -1,0 +1,1 @@
+export const productHandle=(id:string)=>`supplier-${id.trim().toLowerCase()}`;
