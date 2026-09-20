@@ -1,0 +1,1 @@
+export const inventoryMode="sync" as const;
