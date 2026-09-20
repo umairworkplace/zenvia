@@ -1,0 +1,1 @@
+export const sku=(value:string)=>value.trim().toUpperCase();
