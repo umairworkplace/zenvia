@@ -1,0 +1,1 @@
+export const SHIPMENT_STALE_DAYS=7;
