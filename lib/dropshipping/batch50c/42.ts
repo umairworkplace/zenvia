@@ -1,0 +1,1 @@
+export const SHIPPING_STATUS_IN_TRANSIT="in_transit";
