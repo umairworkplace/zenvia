@@ -1,0 +1,1 @@
+export const externalKey=(supplier:string,id:string)=>`${supplier}:${id}`;
