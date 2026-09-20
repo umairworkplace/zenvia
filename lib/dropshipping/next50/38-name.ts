@@ -1,0 +1,1 @@
+export const normalizeName=(v:string)=>v.trim().replace(/\s+/g," ");
