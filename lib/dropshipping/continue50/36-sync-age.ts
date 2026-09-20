@@ -1,0 +1,1 @@
+export const syncAgeMinutes=(date:string|Date)=>Math.max(0,(Date.now()-new Date(date).getTime())/60000);
