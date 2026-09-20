@@ -1,0 +1,1 @@
+export const json=(v:unknown)=>JSON.stringify(v);
