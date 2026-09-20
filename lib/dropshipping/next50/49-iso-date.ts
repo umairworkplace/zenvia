@@ -1,0 +1,1 @@
+export function isoDate(value:Date|string){const d=value instanceof Date?value:new Date(value);return d.toISOString();}
