@@ -1,0 +1,1 @@
+export type ShippingState="unquoted"|"quoted"|"booked"|"in_transit"|"delivered";
