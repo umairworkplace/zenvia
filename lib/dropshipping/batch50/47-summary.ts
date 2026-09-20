@@ -1,0 +1,1 @@
+export const syncSummary=(updated:number,failed:number)=>({updated,failed,total:updated+failed});
