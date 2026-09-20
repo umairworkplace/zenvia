@@ -1,0 +1,1 @@
+export const withinLimit=(q:number,max=20)=>q>0&&q<=max;
