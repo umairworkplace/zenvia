@@ -1,0 +1,1 @@
+export type SyncResult={processed:number;updated:number;skipped:number;failed:number};
