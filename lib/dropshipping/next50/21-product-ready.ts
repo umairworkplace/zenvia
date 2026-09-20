@@ -1,0 +1,1 @@
+export function isProductReady(title:string,price:number){return title.trim().length>0&&price>0;}
