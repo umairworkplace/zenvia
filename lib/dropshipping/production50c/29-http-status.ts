@@ -1,0 +1,1 @@
+export const isHttpSuccess=(status:number)=>status>=200&&status<300;
