@@ -1,0 +1,1 @@
+export const cleanText=(value:string)=>value.replace(/\s+/g," ").trim();
