@@ -1,0 +1,1 @@
+export const coreModule = { status: 'ready', version: 1 } as const;
