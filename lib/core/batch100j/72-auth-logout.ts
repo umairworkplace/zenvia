@@ -1,0 +1,1 @@
+export const authLogout=(x:unknown)=>x;

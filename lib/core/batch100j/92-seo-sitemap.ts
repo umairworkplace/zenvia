@@ -1,0 +1,1 @@
+export const seoSitemap=(x:unknown)=>x;

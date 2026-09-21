@@ -1,0 +1,1 @@
+export const collectionCreate=(x:unknown)=>x;

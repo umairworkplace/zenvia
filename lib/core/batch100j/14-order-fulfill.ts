@@ -1,0 +1,1 @@
+export const orderFulfill=(x:unknown)=>x;

@@ -1,0 +1,1 @@
+export const roleCheck=(x:unknown)=>x;

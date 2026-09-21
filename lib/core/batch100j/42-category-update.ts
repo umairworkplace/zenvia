@@ -1,0 +1,1 @@
+export const categoryUpdate=(x:unknown)=>x;

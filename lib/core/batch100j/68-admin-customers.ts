@@ -1,0 +1,1 @@
+export const adminCustomers=(x:unknown)=>x;

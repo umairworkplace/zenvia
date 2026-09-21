@@ -1,0 +1,1 @@
+export const searchCustomers=(x:unknown)=>x;

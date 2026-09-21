@@ -1,0 +1,1 @@
+export const aliexpressOrderSubmit=(x:unknown)=>x;

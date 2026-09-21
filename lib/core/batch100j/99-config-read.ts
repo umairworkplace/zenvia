@@ -1,0 +1,1 @@
+export const configRead=(x:unknown)=>x;

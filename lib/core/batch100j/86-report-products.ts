@@ -1,0 +1,1 @@
+export const reportProducts=(x:unknown)=>x;

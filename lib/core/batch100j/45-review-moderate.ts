@@ -1,0 +1,1 @@
+export const reviewModerate=(x:unknown)=>x;

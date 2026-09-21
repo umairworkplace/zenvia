@@ -1,0 +1,1 @@
+export const supplierOrderMap=(x:unknown)=>x;

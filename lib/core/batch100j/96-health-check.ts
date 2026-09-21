@@ -1,0 +1,1 @@
+export const healthCheck=(x:unknown)=>x;

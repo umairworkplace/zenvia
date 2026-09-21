@@ -1,0 +1,1 @@
+export const checkoutInit=(x:unknown)=>x;

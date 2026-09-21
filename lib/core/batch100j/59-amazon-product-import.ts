@@ -1,0 +1,1 @@
+export const amazonProductImport=(x:unknown)=>x;

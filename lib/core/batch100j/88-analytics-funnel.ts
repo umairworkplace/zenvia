@@ -1,0 +1,1 @@
+export const analyticsFunnel=(x:unknown)=>x;

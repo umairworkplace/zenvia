@@ -1,0 +1,1 @@
+export const cacheGet=(x:unknown)=>x;

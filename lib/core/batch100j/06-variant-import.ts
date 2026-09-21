@@ -1,0 +1,1 @@
+export const variantImport=(x:unknown)=>x;

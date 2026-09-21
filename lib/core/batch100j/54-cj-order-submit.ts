@@ -1,0 +1,1 @@
+export const cjOrderSubmit=(x:unknown)=>x;

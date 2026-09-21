@@ -1,0 +1,1 @@
+export const customerAddress=(x:unknown)=>x;

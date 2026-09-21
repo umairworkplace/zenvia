@@ -1,0 +1,1 @@
+export const shipmentUpdate=(x:unknown)=>x;

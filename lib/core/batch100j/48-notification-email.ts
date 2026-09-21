@@ -1,0 +1,1 @@
+export const notificationEmail=(x:unknown)=>x;

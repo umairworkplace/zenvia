@@ -1,0 +1,1 @@
+export const aliexpressProductSync=(x:unknown)=>x;

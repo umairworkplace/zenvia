@@ -1,0 +1,1 @@
+export const supportMessage=(x:unknown)=>x;

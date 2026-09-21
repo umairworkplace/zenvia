@@ -1,0 +1,1 @@
+export const webhookReceive=(x:unknown)=>x;

@@ -1,0 +1,1 @@
+export const cartClear=(x:unknown)=>x;

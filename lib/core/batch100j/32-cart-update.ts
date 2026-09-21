@@ -1,0 +1,1 @@
+export const cartUpdate=(x:unknown)=>x;

@@ -1,0 +1,1 @@
+export const supportTicket=(x:unknown)=>x;

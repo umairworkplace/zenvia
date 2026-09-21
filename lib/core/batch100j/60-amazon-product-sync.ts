@@ -1,0 +1,1 @@
+export const amazonProductSync=(x:unknown)=>x;

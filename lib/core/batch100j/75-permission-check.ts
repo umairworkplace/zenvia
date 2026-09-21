@@ -1,0 +1,1 @@
+export const permissionCheck=(x:unknown)=>x;

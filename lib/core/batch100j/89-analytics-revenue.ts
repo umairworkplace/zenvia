@@ -1,0 +1,1 @@
+export const analyticsRevenue=(x:unknown)=>x;

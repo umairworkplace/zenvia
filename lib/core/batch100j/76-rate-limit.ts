@@ -1,0 +1,1 @@
+export const rateLimit=(x:unknown)=>x;

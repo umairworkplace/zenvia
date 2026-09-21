@@ -1,0 +1,1 @@
+export const supplierPriceSync=(x:unknown)=>x;

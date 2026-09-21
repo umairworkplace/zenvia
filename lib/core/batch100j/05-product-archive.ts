@@ -1,0 +1,1 @@
+export const productArchive=(x:unknown)=>x;

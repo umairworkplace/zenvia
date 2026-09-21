@@ -1,0 +1,1 @@
+export const checkoutValidate=(x:unknown)=>x;

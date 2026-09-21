@@ -1,0 +1,1 @@
+export const jobDispatch=(x:unknown)=>x;

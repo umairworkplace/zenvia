@@ -1,0 +1,1 @@
+export const variantUpdate=(x:unknown)=>x;

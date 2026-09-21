@@ -1,0 +1,1 @@
+export const wishlistAdd=(x:unknown)=>x;

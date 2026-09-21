@@ -1,0 +1,1 @@
+export const customerUpdate=(x:unknown)=>x;

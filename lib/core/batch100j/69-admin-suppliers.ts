@@ -1,0 +1,1 @@
+export const adminSuppliers=(x:unknown)=>x;

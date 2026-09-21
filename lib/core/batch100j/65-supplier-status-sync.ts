@@ -1,0 +1,1 @@
+export const supplierStatusSync=(x:unknown)=>x;

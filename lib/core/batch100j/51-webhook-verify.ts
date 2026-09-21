@@ -1,0 +1,1 @@
+export const webhookVerify=(x:unknown)=>x;

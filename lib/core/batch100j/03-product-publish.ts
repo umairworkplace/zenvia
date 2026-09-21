@@ -1,0 +1,1 @@
+export const productPublish=(x:unknown)=>x;

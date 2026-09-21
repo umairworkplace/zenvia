@@ -1,0 +1,1 @@
+export const categoryCreate=(x:unknown)=>x;

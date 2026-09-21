@@ -1,0 +1,1 @@
+export const adminSettings=(x:unknown)=>x;

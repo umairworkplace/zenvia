@@ -1,0 +1,1 @@
+export const couponApply=(x:unknown)=>x;

@@ -1,0 +1,1 @@
+export const analyticsEvent=(x:unknown)=>x;

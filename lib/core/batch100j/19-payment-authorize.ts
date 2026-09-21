@@ -1,0 +1,1 @@
+export const paymentAuthorize=(x:unknown)=>x;

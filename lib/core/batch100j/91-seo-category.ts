@@ -1,0 +1,1 @@
+export const seoCategory=(x:unknown)=>x;

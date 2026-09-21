@@ -1,0 +1,1 @@
+export const cacheSet=(x:unknown)=>x;

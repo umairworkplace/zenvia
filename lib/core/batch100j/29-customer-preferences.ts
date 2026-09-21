@@ -1,0 +1,1 @@
+export const customerPreferences=(x:unknown)=>x;

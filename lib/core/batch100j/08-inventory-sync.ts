@@ -1,0 +1,1 @@
+export const inventorySync=(x:unknown)=>x;

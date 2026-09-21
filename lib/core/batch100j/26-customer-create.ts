@@ -1,0 +1,1 @@
+export const customerCreate=(x:unknown)=>x;

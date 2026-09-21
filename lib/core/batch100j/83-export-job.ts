@@ -1,0 +1,1 @@
+export const exportJob=(x:unknown)=>x;

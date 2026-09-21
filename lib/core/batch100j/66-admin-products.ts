@@ -1,0 +1,1 @@
+export const adminProducts=(x:unknown)=>x;
