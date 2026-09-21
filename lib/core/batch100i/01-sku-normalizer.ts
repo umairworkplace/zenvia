@@ -1,0 +1,1 @@
+export const normalizeSku=(x:string)=>x.trim().toUpperCase();
