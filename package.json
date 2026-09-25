@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate --schema=./prisma/schema.prisma"
   },
   "dependencies": {
-    "@prisma/client": "latest",
+    "@prisma/client": "6.19.0",
     "@react-three/fiber": "latest",
     "lucide-react": "latest",
     "next": "latest",
@@ -22,7 +22,7 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "prisma": "latest",
+    "prisma": "6.19.0",
     "typescript": "latest"
   }
 }
